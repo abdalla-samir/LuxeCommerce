@@ -46,13 +46,9 @@ src/
 
 # Folders Explanation:
 
----
-
 ## /assets
 
 Contains static files such as images, icons, and fonts used throughout the application.
-
----
 
 ## /components
 
@@ -61,8 +57,6 @@ Reusable UI building blocks.
 - **common/** → General-purpose components like buttons, inputs, modals.
 - **layout/** → Layout-related components such as navbar and sidebars.
 - **ui/** → Domain-specific reusable components like product cards, category cards, order cards
-
----
 
 ## /pages
 
@@ -94,8 +88,6 @@ Admin panel pages for managing the system:
 - Analytics
 - Settings
 
----
-
 ## /layouts
 
 Defines the overall structure of pages.
@@ -103,15 +95,11 @@ Defines the overall structure of pages.
 - **UserLayout.jsx** → Used for user-facing pages (Navbar + Footer)
 - **AdminLayout.jsx** → Used for admin panel (Sidebar + Main content)
 
----
-
 ## /routes
 
 Centralized routing configuration using React Router
 
 - Defines all application routes
-
----
 
 ## hooks/
 
@@ -121,8 +109,6 @@ Examples:
 
 - useHook
 
----
-
 ## context/
 
 Global state management using React Context API.
@@ -131,8 +117,6 @@ Examples:
 
 - Authentication state
 - Cart state
-
----
 
 ## services/
 
@@ -144,16 +128,12 @@ Examples:
 - Create orders
 - User authentication requests
 
----
-
 ## App.jsx
 
 Root component of the application.
 
 - Wraps and renders the routing system
 - Initializes global providers
-
----
 
 ## main.jsx
 
@@ -162,8 +142,5 @@ Entry point of the React application.
 - Mounts the app into the DOM
 - Initializes the React tree
 
----
-
 # Note
-
 This architecture follows a scalable and modular structure suitable for a production-level e-commerce application, separating concerns between UI, logic, state, and data handling
