@@ -1,3 +1,5 @@
+# Project Structure
+
 ```
 src/
 │
@@ -42,17 +44,17 @@ src/
 └── main.jsx
 ```
 
-Folder Explanation:
+# Folders Explanation:
 
 ---
 
-# /assets
+## /assets
 
 Contains static files such as images, icons, and fonts used throughout the application.
 
 ---
 
-# /components
+## /components
 
 Reusable UI building blocks.
 
@@ -62,11 +64,11 @@ Reusable UI building blocks.
 
 ---
 
-# /pages
+## /pages
 
 Represents application screens (routes)
 
-## /pages/user
+### /pages/user
 
 Pages accessible by end users:
 
@@ -80,7 +82,7 @@ Pages accessible by end users:
 - About
 - User Dashboard
 
-## /pages/admin
+### /pages/admin
 
 Admin panel pages for managing the system:
 
@@ -94,7 +96,7 @@ Admin panel pages for managing the system:
 
 ---
 
-# /layouts
+## /layouts
 
 Defines the overall structure of pages.
 
@@ -103,7 +105,7 @@ Defines the overall structure of pages.
 
 ---
 
-# /routes
+## /routes
 
 Centralized routing configuration using React Router
 
@@ -111,7 +113,7 @@ Centralized routing configuration using React Router
 
 ---
 
-# hooks/
+## hooks/
 
 Custom reusable React hooks for shared logic.
 
@@ -121,7 +123,7 @@ Examples:
 
 ---
 
-# context/
+## context/
 
 Global state management using React Context API.
 
@@ -132,7 +134,7 @@ Examples:
 
 ---
 
-# services/
+## services/
 
 Handles API calls and external data fetching.
 
@@ -144,7 +146,7 @@ Examples:
 
 ---
 
-# App.jsx
+## App.jsx
 
 Root component of the application.
 
@@ -153,7 +155,7 @@ Root component of the application.
 
 ---
 
-# main.jsx
+## main.jsx
 
 Entry point of the React application.
 
