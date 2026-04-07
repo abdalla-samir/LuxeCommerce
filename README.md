@@ -1,3 +1,4 @@
+```
 src/
 │
 ├── assets/
@@ -39,6 +40,7 @@ src/
 ├── services/
 ├── App.jsx
 └── main.jsx
+```
 
 Folder Explanation:
 
