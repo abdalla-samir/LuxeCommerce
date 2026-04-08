@@ -50,4 +50,7 @@
     .navbar-li {
         @apply hover:text-text-secondary cursor-pointer transition;
     }
+    .category-li {
+        @apply p-4 hover:bg-bg-muted cursor-pointer;
+    }
 }
