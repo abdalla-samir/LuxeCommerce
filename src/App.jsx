@@ -1,5 +1,7 @@
+import NavBar from "./components/layout/NavBar";
+
 function App() {
-    return <h1 className="text-orange-700">E-commerce App</h1>;
+    return <NavBar />;
 }
 
 export default App;

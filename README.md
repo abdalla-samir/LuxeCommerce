@@ -1,6 +1,3 @@
-# Project Structure
-
-```
 src/
 │
 ├── assets/
@@ -42,15 +39,18 @@ src/
 ├── services/
 ├── App.jsx
 └── main.jsx
-```
 
-# Folders Explanation:
+Folder Explanation:
 
-## /assets
+---
+
+# /assets
 
 Contains static files such as images, icons, and fonts used throughout the application.
 
-## /components
+---
+
+# /components
 
 Reusable UI building blocks.
 
@@ -58,11 +58,13 @@ Reusable UI building blocks.
 - **layout/** → Layout-related components such as navbar and sidebars.
 - **ui/** → Domain-specific reusable components like product cards, category cards, order cards
 
-## /pages
+---
+
+# /pages
 
 Represents application screens (routes)
 
-### /pages/user
+## /pages/user
 
 Pages accessible by end users:
 
@@ -76,7 +78,7 @@ Pages accessible by end users:
 - About
 - User Dashboard
 
-### /pages/admin
+## /pages/admin
 
 Admin panel pages for managing the system:
 
@@ -88,20 +90,26 @@ Admin panel pages for managing the system:
 - Analytics
 - Settings
 
-## /layouts
+---
+
+# /layouts
 
 Defines the overall structure of pages.
 
 - **UserLayout.jsx** → Used for user-facing pages (Navbar + Footer)
 - **AdminLayout.jsx** → Used for admin panel (Sidebar + Main content)
 
-## /routes
+---
+
+# /routes
 
 Centralized routing configuration using React Router
 
 - Defines all application routes
 
-## hooks/
+---
+
+# hooks/
 
 Custom reusable React hooks for shared logic.
 
@@ -109,7 +117,9 @@ Examples:
 
 - useHook
 
-## context/
+---
+
+# context/
 
 Global state management using React Context API.
 
@@ -118,7 +128,9 @@ Examples:
 - Authentication state
 - Cart state
 
-## services/
+---
+
+# services/
 
 Handles API calls and external data fetching.
 
@@ -128,19 +140,26 @@ Examples:
 - Create orders
 - User authentication requests
 
-## App.jsx
+---
+
+# App.jsx
 
 Root component of the application.
 
 - Wraps and renders the routing system
 - Initializes global providers
 
-## main.jsx
+---
+
+# main.jsx
 
 Entry point of the React application.
 
 - Mounts the app into the DOM
 - Initializes the React tree
 
+---
+
 # Note
+
 This architecture follows a scalable and modular structure suitable for a production-level e-commerce application, separating concerns between UI, logic, state, and data handling

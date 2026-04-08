@@ -1,1 +1,53 @@
 @import "tailwindcss";
+
+:root {
+    font-family: "Inter", sans-serif;
+}
+
+@theme {
+    /* ================= Colors =================== */
+    --color-primary: #0b1220;
+    --color-primary-soft: #111827;
+    --color-primary-light: #1f2937;
+
+    --color-accent: #e11d48;
+    --color-accent-hover: #be123c;
+    --color-accent-light: #f43f5e;
+
+    --color-bg-main: #ffffff;
+    --color-bg-section: #f1f5f9;
+    --color-bg-muted: #f8fafc;
+    --color-bg-dark: #0b1220;
+
+    --color-text-primary: #0f172a;
+    --color-text-secondary: #475569;
+    --color-text-muted: #94a3b8;
+    --color-text-white: #ffffff;
+
+    --color-border: #e2e8f0;
+    --color-border-dark: #1f2937;
+
+    --color-success: #22c55e;
+    --color-warning: #f59e0b;
+    --color-error: #ef4444;
+    /* ================= Colors =================== */
+
+    /* ================= Font sizes =============== */
+    --text-xs: 0.75rem; /* 12px */
+    --text-sm: 0.875rem; /* 14px */
+    --text-base: 1rem; /* 16px */
+    --text-lg: 1.125rem; /* 18px */
+    --text-xl: 1.25rem; /* 20px */
+    --text-2xl: 1.5rem; /* 24px */
+    --text-3xl: 1.875rem; /* 30px */
+    --text-4xl: 2.25rem; /* 36px */
+    --text-5xl: 3rem; /* 48px */
+    --text-6xl: 3.75rem; /* 60px */
+    /* ================= Font sizes ============== */
+}
+
+@layer utilities {
+    .navbar-li {
+        @apply hover:text-text-secondary cursor-pointer transition;
+    }
+}
