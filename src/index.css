@@ -50,6 +50,12 @@
     .navbar-li {
         @apply hover:text-text-secondary cursor-pointer transition;
     }
+    .sidebar-li {
+        @apply hover:text-text-secondary cursor-pointer transition hover:bg-bg-section p-2 px-4 text-sm;
+    }
+    .sidebar-a {
+        @apply flex gap-2 p-2 rounded transition  text-text-secondary text-sm hover:bg-bg-muted;
+    }
     .category-li {
         @apply p-4 hover:bg-bg-muted cursor-pointer;
     }
