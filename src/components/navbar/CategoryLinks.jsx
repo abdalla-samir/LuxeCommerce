@@ -1,6 +1,6 @@
 export default function CategoryLinks({ variant }) {
     const ulStyles = {
-        navbar: "absolute top-full left-0 w-full text-sm",
+        navbar: "absolute top-full left-0 w-full text-sm bg-bg-main",
         sidebar: "ml-2 text-xs",
     };
     return (

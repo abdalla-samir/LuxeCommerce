@@ -1,14 +1,16 @@
-import Logo from "./Logo";
+import Logo from "../ui/Logo";
 import Cross from "/src/assets/icons/cross.svg?react";
 import AccountLinks from "/src/components/navbar/AccountLinks";
 import UtilityLinks from "/src/components/navbar/UtilityLinks";
 import PrimaryLinks from "./PrimaryLinks";
 import InfoLinks from "./InfoLinks";
 
-export default function SideBar({ setShowSideBar }) {
+export default function SideBar({ showSideBar, setShowSideBar }) {
     return (
         <>
-            <div className="w-70 fixed top-0 left-0 h-screen bg-bg-main flex flex-col shadow z-50">
+            <div
+                className={`w-70 fixed top-0 left-0 h-screen bg-bg-main flex flex-col shadow z-50 transition duration-400 ${showSideBar ? "translate-x-0" : "-translate-x-full"}`}
+            >
                 <div className="p-2 px-4 border-b h-15 border-border flex justify-between items-center">
                     <Logo size="small" />
                     <Cross
@@ -30,10 +32,12 @@ export default function SideBar({ setShowSideBar }) {
                     </ul>
                 </div>
             </div>
-            <span
-                className="fixed top-0 left-0 z-30 w-full h-screen bg-bg-dark/40"
-                onClick={() => setShowSideBar(false)}
-            ></span>
+            {showSideBar && (
+                <span
+                    className="fixed top-0 left-0 z-30 w-full h-screen bg-bg-dark/40"
+                    onClick={() => setShowSideBar(false)}
+                ></span>
+            )}
         </>
     );
 }

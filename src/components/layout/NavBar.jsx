@@ -6,7 +6,7 @@ import ProfileIcon from "/src/assets/icons/profile.svg?react";
 import HeaderLinks from "/src/components/navbar/HeaderLinks";
 import BurgerIcon from "/src/assets/icons/burger.svg?react";
 import SideBar from "/src/components/navbar/SideBar";
-import Logo from "/src/components/navbar/Logo";
+import Logo from "/src/components/ui/Logo";
 
 export default function NavBar() {
     const [showToggleBar, setShowToggleBar] = useState(false);
@@ -22,7 +22,7 @@ export default function NavBar() {
         return () => media.removeEventListener("change", handleResize);
     }, []);
     return (
-        <div className="p-4 h-15 bg-bg-main shadow relative flex justify-between items-center">
+        <div className="sticky top-0 z-50 p-4 h-18 bg-bg-main shadow flex justify-between items-center">
             <div className="flex items-center gap-2">
                 {showToggleBar && (
                     <BurgerIcon
@@ -31,11 +31,14 @@ export default function NavBar() {
                     />
                 )}
                 <div className="max-lg:hidden">
-                    <Logo size="large" />
+                    <Logo style="text-text-primary text-2xl" />
                 </div>
             </div>
 
-            {showSideBar && <SideBar setShowSideBar={setShowSideBar} />}
+            <SideBar
+                showSideBar={showSideBar}
+                setShowSideBar={setShowSideBar}
+            />
             <HeaderLinks />
 
             <div className="flex gap-6 text-text-secondary">
