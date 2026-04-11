@@ -1,4 +1,3 @@
-import HeaderLinks from "/src/components/navbar/HeaderLinks";
 import Logo from "./Logo";
 import Cross from "/src/assets/icons/cross.svg?react";
 import AccountLinks from "/src/components/navbar/AccountLinks";
@@ -9,8 +8,8 @@ import InfoLinks from "./InfoLinks";
 export default function SideBar({ setShowSideBar }) {
     return (
         <>
-            <div className="w-70 fixed top-0 left-0 h-screen bg-bg-main flex flex-col gap-2 shadow z-50">
-                <div className="p-2 border-b h-15 border-border flex justify-between items-center">
+            <div className="w-70 fixed top-0 left-0 h-screen bg-bg-main flex flex-col shadow z-50">
+                <div className="p-2 px-4 border-b h-15 border-border flex justify-between items-center">
                     <Logo size="small" />
                     <Cross
                         width={18}
@@ -18,16 +17,16 @@ export default function SideBar({ setShowSideBar }) {
                         onClick={() => setShowSideBar(false)}
                     />
                 </div>
-                <div className="p-2 flex flex-col gap-2">
+                <div className="p-2 flex flex-1 flex-col min-h-0 gap-2">
                     <ul className="flex flex-col gap-2">
                         <AccountLinks />
                         <UtilityLinks />
                     </ul>
-                    <ul className="border-y border-border py-2">
-                        <PrimaryLinks className="sidebar-li" />
+                    <ul className="border-y border-border py-2 flex-1 overflow-y-auto">
+                        <PrimaryLinks variant="sidebar-li" />
                     </ul>
                     <ul>
-                        <InfoLinks className="sidebar-li text-text-secondary" />
+                        <InfoLinks variant="sidebar-li" />
                     </ul>
                 </div>
             </div>

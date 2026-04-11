@@ -3,7 +3,7 @@ export default function AccountLinks() {
     return (
         <li>
             <a href="#" className="sidebar-a">
-                <ProfileIcon width={18} />
+                <ProfileIcon width={15} />
                 <span>Sign in / Create account</span>
             </a>
         </li>

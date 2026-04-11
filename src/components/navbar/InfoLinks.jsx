@@ -1,16 +1,8 @@
-export default function InfoLinks({ variant, className }) {
+export default function InfoLinks({ variant }) {
     return (
         <>
-            <li
-                className={`${variant === "sidebar" ? "text-text-muted" : ""} ${className}`}
-            >
-                Journal
-            </li>
-            <li
-                className={`${variant === "sidebar" ? "text-text-muted" : ""} ${className}`}
-            >
-                About
-            </li>
+            <li className={`${variant}`}>Journal</li>
+            <li className={`${variant}`}>About</li>
         </>
     );
 }

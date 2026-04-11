@@ -6,13 +6,13 @@ export default function UtilityLinks() {
         <>
             <li>
                 <a href="#" className="sidebar-a">
-                    <WishList width={18} />
+                    <WishList width={15} />
                     <span>WishList</span>
                 </a>
             </li>
             <li>
                 <a href="#" className="sidebar-a">
-                    <Cart width={18} />
+                    <Cart width={15} />
                     <span>Cart</span>
                 </a>
             </li>

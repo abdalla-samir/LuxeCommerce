@@ -4,19 +4,14 @@ import WishListIcon from "/src/assets/icons/wishlist.svg?react";
 import CartIcon from "/src/assets/icons/cart.svg?react";
 import ProfileIcon from "/src/assets/icons/profile.svg?react";
 import HeaderLinks from "/src/components/navbar/HeaderLinks";
-import CategoryLinks from "/src/components/navbar/CategoryLinks";
 import BurgerIcon from "/src/assets/icons/burger.svg?react";
 import SideBar from "/src/components/navbar/SideBar";
 import Logo from "/src/components/navbar/Logo";
-import { CategoryToggleContext } from "/src/context/CategoryToggleContext";
 
 export default function NavBar() {
-    const [showCategoryLinks, setShowCategoryLinks] = useState(false);
     const [showToggleBar, setShowToggleBar] = useState(false);
     const [showSideBar, setShowSideBar] = useState(false);
-    const handleCategoriesToggle = () => {
-        setShowCategoryLinks((prev) => !prev);
-    };
+
     useEffect(() => {
         const media = window.matchMedia("(max-width: 1024px)");
         const handleResize = (event) => {
@@ -39,10 +34,9 @@ export default function NavBar() {
                     <Logo size="large" />
                 </div>
             </div>
-            <CategoryToggleContext.Provider value={{ handleCategoriesToggle }}>
-                {showSideBar && <SideBar setShowSideBar={setShowSideBar} />}
-                <HeaderLinks />
-            </CategoryToggleContext.Provider>
+
+            {showSideBar && <SideBar setShowSideBar={setShowSideBar} />}
+            <HeaderLinks />
 
             <div className="flex gap-6 text-text-secondary">
                 <Search placeHolder="Search curated luxury..." />
@@ -52,11 +46,6 @@ export default function NavBar() {
                     <ProfileIcon width={18} />
                 </div>
             </div>
-            {showCategoryLinks && (
-                <div className="absolute top-full left-0 w-full bg-bg-main z-50">
-                    <CategoryLinks />
-                </div>
-            )}
         </div>
     );
 }

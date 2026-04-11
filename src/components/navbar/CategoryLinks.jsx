@@ -1,14 +1,54 @@
-export default function CategoryLinks() {
+export default function CategoryLinks({ variant }) {
+    const ulStyles = {
+        navbar: "absolute top-full left-0 w-full text-sm",
+        sidebar: "ml-2 text-xs",
+    };
     return (
-        <ul className="text-sm">
-            <li className="category-li">Fashion</li>
-            <li className="category-li">Electronics</li>
-            <li className="category-li">Mobile</li>
-            <li className="category-li">Accessories</li>
-            <li className="category-li">Home & Living</li>
-            <li className="category-li">Beauty</li>
-            <li className="category-li">Sports</li>
-            <li className="category-li">Gaming</li>
-        </ul>
+        <>
+            <ul
+                className={`text-text-dark  ${variant === "navbar-li" ? ulStyles.navbar : variant === "sidebar-li" ? ulStyles.sidebar : ""}`}
+            >
+                <li
+                    className={`${variant === "navbar-li" ? "navbar-category-li" : variant === "sidebar-li" ? "sidebar-category-li" : ""}`}
+                >
+                    Fashion
+                </li>
+                <li
+                    className={`${variant === "navbar-li" ? "navbar-category-li" : variant === "sidebar-li" ? "sidebar-category-li" : ""}`}
+                >
+                    Electronics
+                </li>
+                <li
+                    className={`${variant === "navbar-li" ? "navbar-category-li" : variant === "sidebar-li" ? "sidebar-category-li" : ""}`}
+                >
+                    Mobile
+                </li>
+                <li
+                    className={`${variant === "navbar-li" ? "navbar-category-li" : variant === "sidebar-li" ? "sidebar-category-li" : ""}`}
+                >
+                    Accessories
+                </li>
+                <li
+                    className={`${variant === "navbar-li" ? "navbar-category-li" : variant === "sidebar-li" ? "sidebar-category-li" : ""}`}
+                >
+                    Home & Living
+                </li>
+                <li
+                    className={`${variant === "navbar-li" ? "navbar-category-li" : variant === "sidebar-li" ? "sidebar-category-li" : ""}`}
+                >
+                    Beauty
+                </li>
+                <li
+                    className={`${variant === "navbar-li" ? "navbar-category-li" : variant === "sidebar-li" ? "sidebar-category-li" : ""}`}
+                >
+                    Sports
+                </li>
+                <li
+                    className={`${variant === "navbar-li" ? "navbar-category-li" : variant === "sidebar-li" ? "sidebar-category-li" : ""}`}
+                >
+                    Gaming
+                </li>
+            </ul>
+        </>
     );
 }
