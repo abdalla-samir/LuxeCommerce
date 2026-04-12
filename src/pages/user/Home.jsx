@@ -1,5 +1,12 @@
+import Categories from "/src/components/home/Categories";
 import Hero from "/src/components/home/Hero";
 
 export default function Home() {
-    return <Hero />;
+    const sectionPadding = "p-10 py-15";
+    return (
+        <>
+            <Hero />
+            <Categories padding={sectionPadding} />
+        </>
+    );
 }
