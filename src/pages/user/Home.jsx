@@ -1,3 +1,4 @@
+import FlashSale from "../../components/home/FlashSale";
 import Categories from "/src/components/home/Categories";
 import Hero from "/src/components/home/Hero";
 
@@ -7,6 +8,7 @@ export default function Home() {
         <>
             <Hero />
             <Categories padding={sectionPadding} />
+            <FlashSale padding={sectionPadding} />
         </>
     );
 }

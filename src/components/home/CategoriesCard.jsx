@@ -1,15 +1,15 @@
 import { useState } from "react";
-import Button from "/src/components/common/Button";
+import CardMessage from "/src/components/ui/CardMessage";
 
 export default function CategoriesCard({ label, icon: Icon, imagePath }) {
-    const [shopNow, setShopNow] = useState(false);
+    const [shopNowMessage, setShopNowMessage] = useState(false);
     return (
         <div className="flex justify-center">
             <div
                 className={`self-center relative rounded-xl p-4 w-72.5 h-75 bg-cover overflow-hidden`}
                 style={{ backgroundImage: `url(${imagePath})` }}
-                onMouseEnter={() => setShopNow(true)}
-                onMouseLeave={() => setShopNow(false)}
+                onMouseEnter={() => setShopNowMessage(true)}
+                onMouseLeave={() => setShopNowMessage(false)}
             >
                 <div className="text-white text-sm absolute bottom-5 left-5 flex flex-col gap-2">
                     <span className="">
@@ -17,11 +17,7 @@ export default function CategoriesCard({ label, icon: Icon, imagePath }) {
                     </span>
                     <span>{label}</span>
                 </div>
-                <div
-                    className={`absolute w-full h-full bg-bg-muted/30 top-0 left-0 flex items-center justify-center transition duration-300 ${shopNow ? "translate-x-0" : "translate-x-full"}`}
-                >
-                    <Button label="Shop Now" />
-                </div>
+                <CardMessage label="Shop Now" showMessage={shopNowMessage} />
             </div>
         </div>
     );
