@@ -6,12 +6,16 @@ export default function FlashTimer({ endTime }) {
         const difference = new Date(endTime) - new Date();
         if (difference <= 0) {
             return {
+                days: "00",
                 hours: "00",
                 minutes: "00",
                 seconds: "00",
             };
         }
         return {
+            days: String(
+                Math.floor((difference / (1000 * 60 * 60 * 24)) % 24),
+            ).padStart(2, "0"),
             hours: String(
                 Math.floor((difference / (1000 * 60 * 60)) % 24),
             ).padStart(2, "0"),
@@ -34,6 +38,7 @@ export default function FlashTimer({ endTime }) {
     });
     return (
         <div className="flex gap-2 text-center">
+            <TimeBox label="DAYS" value={timeLeft.days} />
             <TimeBox label="HRS" value={timeLeft.hours} />
             <TimeBox label="MIN" value={timeLeft.minutes} />
             <TimeBox label="SEC" value={timeLeft.seconds} />
