@@ -1,6 +1,8 @@
-export default function Button({ link, label }) {
+export default function Button({ link, label, style }) {
     return (
-        <button className=" bg-accent hover:bg-accent-hover w-50 py-2 rounded cursor-pointer text-white transition duration-200">
+        <button
+            className={`${style} w-40 cursor-pointer transition duration-200`}
+        >
             {label}
         </button>
     );

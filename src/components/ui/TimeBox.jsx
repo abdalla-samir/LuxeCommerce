@@ -1,8 +1,11 @@
-export default function TimeBox({ label, value }) {
+export default function TimeBox({ label, value, lastChild }) {
     return (
-        <div className="flex flex-col  bg-bg-main/10 w-15 h-15 justify-center items-center rounded">
-            <span className="text-white text-lg">{value}</span>
-            <span className="text-white/60 text-sm">{label}</span>
-        </div>
+        <>
+            <div className="flex flex-col w-15 h-15 bg-bg-muted justify-center items-center rounded">
+                <span className=" text-xl font-black">{value}</span>
+                <span className="text-xs">{label}</span>
+            </div>
+            {!lastChild && <span className="font-black text-lg">:</span>}
+        </>
     );
 }

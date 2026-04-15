@@ -37,11 +37,11 @@ export default function FlashTimer({ endTime }) {
         return () => clearInterval(timer);
     });
     return (
-        <div className="flex gap-2 text-center">
-            <TimeBox label="DAYS" value={timeLeft.days} />
-            <TimeBox label="HRS" value={timeLeft.hours} />
-            <TimeBox label="MIN" value={timeLeft.minutes} />
-            <TimeBox label="SEC" value={timeLeft.seconds} />
+        <div className="flex items-center gap-2 text-center">
+            <TimeBox label="DAYS" value={timeLeft.days} lastChild={false} />
+            <TimeBox label="HRS" value={timeLeft.hours} lastChild={false} />
+            <TimeBox label="MIN" value={timeLeft.minutes} lastChild={false} />
+            <TimeBox label="SEC" value={timeLeft.seconds} lastChild={true} />
         </div>
     );
 }

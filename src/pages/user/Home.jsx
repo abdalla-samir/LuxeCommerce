@@ -10,7 +10,7 @@ export default function Home() {
     const sectionPadding = "p-10 py-15";
     return (
         <>
-            <Hero />
+            <Hero padding={sectionPadding} />
             <Categories padding={sectionPadding} />
             <FlashSale padding={sectionPadding} />
             <BestSellers padding={sectionPadding} />
