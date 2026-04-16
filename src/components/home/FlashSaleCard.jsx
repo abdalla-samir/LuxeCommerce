@@ -1,6 +1,9 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import WishListIcon from "/src/assets/icons/wishlist.svg?react";
-import CardMessage from "../ui/CardMessage";
+import CardMessage from "/src/components/ui/CardMessage";
+import CardOverlay from "/src/components/ui/CardOverlay";
+import { ButtonStyleContext } from "../../context/ButtonStyleContext";
+
 export default function FlashSaleCard({
     label,
     badge,
@@ -9,10 +12,11 @@ export default function FlashSaleCard({
     image,
 }) {
     const [addToCardMessage, setAddToCardMessage] = useState(false);
+    const { mainButtonStyle } = useContext(ButtonStyleContext);
     return (
         <div className="flex justify-center items-center">
-            <div className="w-75">
-                <div className="p-2 bg-bg-main rounded-t flex items-center justify-center">
+            <div className="">
+                <div className="bg-bg-main rounded-t flex items-center justify-center">
                     <div
                         className="relative overflow-hidden rounded"
                         onMouseEnter={() => setAddToCardMessage(true)}
@@ -24,22 +28,28 @@ export default function FlashSaleCard({
                         <img src={image} alt="productImage" />
                         <CardMessage
                             label="Add To Cart"
+                            buttonStyle={mainButtonStyle}
                             showMessage={addToCardMessage}
+                            showWishListIcon={true}
                         />
+                        <CardOverlay />
                     </div>
                 </div>
-                <div className="bg-bg-main border-t border-border p-2">
-                    <h3 className="text-text-primary font-bold">{label}</h3>
-                    <div className="flex">
-                        <div className="flex-1 flex items-center gap-2">
-                            <span className="text-accent font-black text-lg">
-                                {finalPrice}$
-                            </span>
-                            <span className="text-text-muted text-sm line-through">
-                                {price}$
-                            </span>
+                <div className="bg-bg-main border-t border-border p-2 flex items-center justify-between">
+                    <div>
+                        <h3 className="text-text-primary text-md font-bold">
+                            {label}
+                        </h3>
+                        <div className="flex">
+                            <div className="flex-1 flex items-center gap-2">
+                                <span className="text-accent font-black text-md">
+                                    {finalPrice}$
+                                </span>
+                                <span className="text-text-muted text-sm line-through">
+                                    {price}$
+                                </span>
+                            </div>
                         </div>
-                        <WishListIcon width={18} className="text-text-muted" />
                     </div>
                 </div>
             </div>

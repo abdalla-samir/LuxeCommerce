@@ -31,34 +31,7 @@ export const categories = [
         icon: ElectronicsIcon,
         image: ElectronicsImg,
     },
-    {
-        id: 3,
-        label: "Mobiles",
-        tag: "FLAGSHIP SERIES",
-        icon: MobilesIcon,
-        image: MobilesImg,
-    },
-    {
-        id: 4,
-        label: "Accessories",
-        tag: "THE ESSENTIALS",
-        icon: AccessoriesIcon,
-        image: AccessoriesImg,
-    },
-    {
-        id: 5,
-        label: "Home & Living",
-        tag: "CURATED SPACES",
-        icon: HomeLivingIcon,
-        image: HomeLivingImg,
-    },
-    {
-        id: 6,
-        label: "Beauty",
-        tag: "SELF CARE",
-        icon: BeautyIcon,
-        image: BeautyImg,
-    },
+
     {
         id: 7,
         label: "Sports",

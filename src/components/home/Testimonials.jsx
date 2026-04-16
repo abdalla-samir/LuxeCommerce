@@ -15,7 +15,7 @@ export default function Testimonials({ padding }) {
         <div className={`${padding} bg-bg-section`}>
             <div className="text-center mb-4">
                 <Heading label="The Luxe Standard" />
-                <p className="text-text-secondary text-sm">
+                <p className="text-accent text-sm">
                     Trusted by collectors and design enthusiasts worldwide.
                 </p>
             </div>

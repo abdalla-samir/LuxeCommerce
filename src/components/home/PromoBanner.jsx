@@ -12,7 +12,7 @@ export default function PromoBanner({ padding }) {
                 Refresh your lifestyle with our curated clearance collection.
                 Limited time only.
             </p>
-            <a href="#" className="w-fit border-b-2 pb-1 border-white">
+            <a href="#" className="w-fit border-b-2 pb-1 border-white text-sm">
                 Shop The Sale
             </a>
         </div>

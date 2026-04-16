@@ -9,6 +9,7 @@ export default function Hero({ padding }) {
         buttonTwo:
             "border hover:bg-accent-hover hover:text-white text-accent py-3 text-xs font-bold",
     };
+
     return (
         <div
             className={`min-h-[calc(100vh-72px)] flex max-md:flex-col gap-4 justify-between items-center ${padding} `}
@@ -47,10 +48,14 @@ export default function Hero({ padding }) {
                     <span className="text-text-muted text-sm mb-2 block">
                         DEAL ENDS IN
                     </span>
-                    <FlashTimer endTime="2026-05-01T00:00:00" />
+                    <FlashTimer
+                        endTime="2026-05-01T00:00:00"
+                        styles="bg-bg-section"
+                        delimeterColor="text-black"
+                    />
                 </div>
             </div>
-            <div className=" max-w-110 max-md:w-90  md:bg-bg-section rounded-md flex justify-center items-center max-md:order-1">
+            <div className=" w-90   md:bg-bg-section rounded-md flex justify-center items-center max-md:order-1">
                 <img src={HeroImage} alt="" />
             </div>
         </div>

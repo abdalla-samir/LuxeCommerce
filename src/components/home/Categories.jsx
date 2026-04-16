@@ -15,8 +15,14 @@ export default function Categories({ padding }) {
     return (
         <>
             <div className={`bg-bg-section ${padding}`}>
-                <div className="mb-10">
+                <div className="text-text-primary flex max-sm:flex-col gap-2 justify-between items-center mb-4">
                     <Heading label="Browse by Categories" tag="Discover More" />
+                    <a
+                        href="#"
+                        className="border-b-2 w-fit border-border-dark text-sm font-bold"
+                    >
+                        View All
+                    </a>
                 </div>
                 <div className="grid-4">{categoriesCards}</div>
             </div>

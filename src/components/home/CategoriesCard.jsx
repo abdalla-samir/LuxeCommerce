@@ -1,14 +1,16 @@
 import { useState } from "react";
 import CardMessage from "/src/components/ui/CardMessage";
+import CardOverlay from "../ui/CardOverlay";
+import { useContext } from "react";
+import { ButtonStyleContext } from "../../context/ButtonStyleContext";
 
 export default function CategoriesCard({ label, tag, icon: Icon, imagePath }) {
     const [shopNowMessage, setShopNowMessage] = useState(false);
-    const buttonStyle =
-        "text-white bg-primary hover:bg-accent h-full text-xs font-bold";
+    const { mainButtonStyle } = useContext(ButtonStyleContext);
     return (
         <div className="flex justify-center">
             <div
-                className={`self-center relative rounded-xl p-4 w-72.5 h-90 bg-cover overflow-hidden`}
+                className={` relative rounded-xl p-4 w-60 h-90 bg-cover overflow-hidden`}
                 style={{ backgroundImage: `url(${imagePath})` }}
                 onMouseEnter={() => setShopNowMessage(true)}
                 onMouseLeave={() => setShopNowMessage(false)}
@@ -19,10 +21,10 @@ export default function CategoriesCard({ label, tag, icon: Icon, imagePath }) {
                 </div>
                 <CardMessage
                     label="Shop Now"
-                    buttonStyle={buttonStyle}
+                    buttonStyle={mainButtonStyle}
                     showMessage={shopNowMessage}
                 />
-                <span className="absolute w-full h-15 bottom-0 left-0 bg-linear-to-t  from-black/40 to-black/0"></span>
+                <CardOverlay />
             </div>
         </div>
     );

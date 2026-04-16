@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import TimeBox from "/src/components/ui/TimeBox";
 
-export default function FlashTimer({ endTime }) {
+export default function FlashTimer({ endTime, styles, delimeterColor }) {
     const calculateTimeLeft = () => {
         const difference = new Date(endTime) - new Date();
         if (difference <= 0) {
@@ -37,11 +37,35 @@ export default function FlashTimer({ endTime }) {
         return () => clearInterval(timer);
     });
     return (
-        <div className="flex items-center gap-2 text-center">
-            <TimeBox label="DAYS" value={timeLeft.days} lastChild={false} />
-            <TimeBox label="HRS" value={timeLeft.hours} lastChild={false} />
-            <TimeBox label="MIN" value={timeLeft.minutes} lastChild={false} />
-            <TimeBox label="SEC" value={timeLeft.seconds} lastChild={true} />
+        <div className="flex items-center gap-1 text-center">
+            <TimeBox
+                label="DAYS"
+                value={timeLeft.days}
+                lastChild={false}
+                styles={styles}
+                delimeterColor={delimeterColor}
+            />
+            <TimeBox
+                label="HRS"
+                value={timeLeft.hours}
+                lastChild={false}
+                styles={styles}
+                delimeterColor={delimeterColor}
+            />
+            <TimeBox
+                label="MIN"
+                value={timeLeft.minutes}
+                lastChild={false}
+                styles={styles}
+                delimeterColor={delimeterColor}
+            />
+            <TimeBox
+                label="SEC"
+                value={timeLeft.seconds}
+                lastChild={true}
+                styles={styles}
+                delimeterColor={delimeterColor}
+            />
         </div>
     );
 }
