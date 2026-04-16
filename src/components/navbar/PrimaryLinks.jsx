@@ -9,6 +9,7 @@ export default function PrimaryLinks({ variant }) {
     };
     return (
         <>
+            <li className={variant}>Home</li>
             <li className={variant}>Shop</li>
             <li>
                 <button

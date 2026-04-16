@@ -14,9 +14,9 @@ export default function BestSellersCard({
     const { mainButtonStyle } = useContext(ButtonStyleContext);
     return (
         <div className="flex justify-center">
-            <div>
+            <div className="shadow">
                 <div
-                    className="relative rounded-md overflow-hidden"
+                    className="relative rounded-t-md overflow-hidden"
                     onMouseEnter={() => setShowMessage(true)}
                     onMouseLeave={() => setShowMessage(false)}
                 >
@@ -29,7 +29,7 @@ export default function BestSellersCard({
                         showMessage={showMessage}
                     />
                 </div>
-                <div className="flex flex-col  p-2 bg-bg-main">
+                <div className="flex flex-col  p-2 bg-bg-main ">
                     <div className="flex justify-between text-xs">
                         <span className="text-text-secondary tracking-wider ">
                             {category}

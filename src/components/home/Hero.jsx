@@ -18,7 +18,7 @@ export default function Hero({ padding }) {
                 <span className="bg-accent p-2 rounded text-xs text-white font-black uppercase ">
                     Limited Offer
                 </span>
-                <p className="text-3xl md:text-4xl lg:text-7xl font-black text-text-primary">
+                <p className="heading font-black text-text-primary">
                     Zenith Smart Watch S
                 </p>
                 <p className="text-text-primary font-light">
@@ -55,7 +55,7 @@ export default function Hero({ padding }) {
                     />
                 </div>
             </div>
-            <div className=" w-90   md:bg-bg-section rounded-md flex justify-center items-center max-md:order-1">
+            <div className="w-100 h-100 overflow-hidden">
                 <img src={HeroImage} alt="" />
             </div>
         </div>

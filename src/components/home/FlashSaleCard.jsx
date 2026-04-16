@@ -15,7 +15,7 @@ export default function FlashSaleCard({
     const { mainButtonStyle } = useContext(ButtonStyleContext);
     return (
         <div className="flex justify-center items-center">
-            <div className="">
+            <div className="shadow-lg">
                 <div className="bg-bg-main rounded-t flex items-center justify-center">
                     <div
                         className="relative overflow-hidden rounded"

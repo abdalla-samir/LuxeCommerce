@@ -19,7 +19,7 @@ export default function FashionSale({ padding }) {
             className={`bg-linear-to-b from-accent to-accent-light ${padding} space-y-6`}
         >
             <div className="flex flex-col gap-2 items-center">
-                <h2 className="relative font-black text-4xl text-white text-center">
+                <h2 className="relative font-black heading max-sm:text-3xl text-white text-center">
                     MIDNIGHT FLASH SALE
                 </h2>
                 <FlashTimer
@@ -28,9 +28,7 @@ export default function FashionSale({ padding }) {
                     delimeterColor="text-white"
                 />
             </div>
-            <div className="flex-1 flex justify-evenly   flex-wrap gap-6">
-                {fashionCards}
-            </div>
+            <div className="grid">{fashionCards}</div>
         </div>
     );
 }

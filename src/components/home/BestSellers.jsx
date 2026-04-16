@@ -27,7 +27,7 @@ export default function BestSellers({ padding }) {
                     View All
                 </a>
             </div>
-            <div className="grid-4">{bestSellersCards}</div>
+            <div className="grid">{bestSellersCards}</div>
         </div>
     );
 }

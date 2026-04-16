@@ -24,7 +24,7 @@ export default function Categories({ padding }) {
                         View All
                     </a>
                 </div>
-                <div className="grid-4">{categoriesCards}</div>
+                <div className="grid">{categoriesCards}</div>
             </div>
         </>
     );

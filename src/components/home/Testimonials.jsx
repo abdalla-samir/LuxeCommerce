@@ -19,7 +19,7 @@ export default function Testimonials({ padding }) {
                     Trusted by collectors and design enthusiasts worldwide.
                 </p>
             </div>
-            <div className="grid-3">{feedbacks}</div>
+            <div className="grid">{feedbacks}</div>
         </div>
     );
 }

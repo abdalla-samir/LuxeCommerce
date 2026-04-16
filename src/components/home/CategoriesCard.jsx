@@ -10,7 +10,7 @@ export default function CategoriesCard({ label, tag, icon: Icon, imagePath }) {
     return (
         <div className="flex justify-center">
             <div
-                className={` relative rounded-xl p-4 w-60 h-90 bg-cover overflow-hidden`}
+                className={` relative rounded-xl p-4 w-60 h-90 bg-cover overflow-hidden shadow-lg`}
                 style={{ backgroundImage: `url(${imagePath})` }}
                 onMouseEnter={() => setShopNowMessage(true)}
                 onMouseLeave={() => setShopNowMessage(false)}

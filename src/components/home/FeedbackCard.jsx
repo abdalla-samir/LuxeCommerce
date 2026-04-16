@@ -3,7 +3,7 @@ import Star from "/src/assets/icons/star_two.svg?react";
 
 export default function FeedbackCard({ userName, position, message }) {
     return (
-        <div className="bg-bg-main bg-4 flex flex-col gap-4 p-4 rounded-md">
+        <div className="bg-bg-main bg-4 flex flex-col gap-4 p-4 rounded-md shadow">
             <div className="flex">
                 <Star />
                 <Star />
