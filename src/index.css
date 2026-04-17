@@ -16,7 +16,7 @@
 
     --color-bg-main: #ffffff;
     --color-bg-section: #f1f5f9;
-    --color-bg-muted: #f8fafc;
+    --color-bg-muted: #f1f5f9;
     --color-bg-dark: #1d2b3e;
 
     --color-text-primary: #0f172a;
@@ -47,6 +47,9 @@
 }
 
 @layer utilities {
+    .section-padding {
+        @apply p-5 py-15;
+    }
     .navbar-li {
         @apply hover:text-text-secondary cursor-pointer transition;
     }
@@ -65,7 +68,7 @@
     .heading {
         @apply text-4xl md:text-5xl lg:text-6xl font-black;
     }
-    .grid {
+    .grid-auto {
         @apply grid gap-6 grid-cols-[repeat(auto-fit,minmax(250px,1fr))];
     }
 }

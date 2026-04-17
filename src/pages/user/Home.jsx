@@ -8,7 +8,7 @@ import Testimonials from "/src/components/home/Testimonials";
 import { ButtonStyleContext } from "../../context/ButtonStyleContext";
 
 export default function Home() {
-    const sectionPadding = "p-5 md:py-15 max-sm:py-10";
+    const sectionPadding = "p-5 py-15";
     const mainButtonStyle =
         "text-white bg-primary hover:bg-accent h-full text-xs font-bold";
     return (

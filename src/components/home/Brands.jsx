@@ -1,9 +1,9 @@
 import { brands } from "/src/data/brands";
 
-export default function Brands({ padding }) {
+export default function Brands() {
     const brandList = brands.map((obj) => <li key={obj.id}>{obj.name}</li>);
     return (
-        <div className={`${padding} bg-bg-main`}>
+        <div className="section-padding bg-bg-main">
             <p className="text-text-secondary font-medium text-center tracking-widest text-xs uppercase">
                 Authorized Global Partners
             </p>

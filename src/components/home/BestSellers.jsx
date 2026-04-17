@@ -2,7 +2,7 @@ import { bestSellers } from "/src/data/bestSellers";
 import BestSellersCard from "/src/components/home/BestSellersCard";
 import Heading from "/src/components/ui/Heading";
 
-export default function BestSellers({ padding }) {
+export default function BestSellers() {
     const bestSellersCards = bestSellers.map((obj) => (
         <BestSellersCard
             key={obj.id}
@@ -14,7 +14,7 @@ export default function BestSellers({ padding }) {
         />
     ));
     return (
-        <div className={`${padding} bg-bg-section`}>
+        <div className="section-padding bg-bg-section">
             <div className="text-text-primary flex max-sm:flex-col gap-2 justify-between items-center mb-4">
                 <Heading
                     label="Best Sellers This Week"
@@ -27,7 +27,7 @@ export default function BestSellers({ padding }) {
                     View All
                 </a>
             </div>
-            <div className="grid">{bestSellersCards}</div>
+            <div className="grid-auto">{bestSellersCards}</div>
         </div>
     );
 }

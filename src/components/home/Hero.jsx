@@ -2,7 +2,7 @@ import Button from "/src/components/common/Button";
 import HeroImage from "/src/assets/images/hero/Hero.png";
 import FlashTimer from "/src/components/ui/FlashTimer";
 
-export default function Hero({ padding }) {
+export default function Hero() {
     const buttonsStyle = {
         buttonOne:
             "text-white bg-primary hover:bg-accent-hover py-3 text-xs font-bold",
@@ -11,9 +11,7 @@ export default function Hero({ padding }) {
     };
 
     return (
-        <div
-            className={`min-h-[calc(100vh-72px)] flex max-md:flex-col gap-4 justify-between items-center ${padding} `}
-        >
+        <div className="min-h-[calc(100vh-72px)] flex max-md:flex-col gap-4 justify-between items-center section-padding">
             <div className="flex flex-col justify-between items-center gap-2 md:items-start max-md:order-2 max-md:text-center w-1/2">
                 <span className="bg-accent p-2 rounded text-xs text-white font-black uppercase ">
                     Limited Offer

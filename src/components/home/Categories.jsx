@@ -2,7 +2,7 @@ import Heading from "/src/components/ui/Heading";
 import CategoriesCard from "/src/components/home/CategoriesCard";
 import { categories } from "/src/data/categories";
 
-export default function Categories({ padding }) {
+export default function Categories() {
     const categoriesCards = categories.map((obj) => (
         <CategoriesCard
             key={obj.id}
@@ -14,7 +14,7 @@ export default function Categories({ padding }) {
     ));
     return (
         <>
-            <div className={`bg-bg-section ${padding}`}>
+            <div className="bg-bg-section section-padding">
                 <div className="text-text-primary flex max-sm:flex-col gap-2 justify-between items-center mb-4">
                     <Heading label="Browse by Categories" tag="Discover More" />
                     <a
@@ -24,7 +24,7 @@ export default function Categories({ padding }) {
                         View All
                     </a>
                 </div>
-                <div className="grid">{categoriesCards}</div>
+                <div className="grid-auto">{categoriesCards}</div>
             </div>
         </>
     );

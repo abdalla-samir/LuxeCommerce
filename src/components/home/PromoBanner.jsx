@@ -1,8 +1,8 @@
 import PromoBannerImage from "/src/assets/images/promo_banner/promobanner.png";
-export default function PromoBanner({ padding }) {
+export default function PromoBanner() {
     return (
         <div
-            className={`${padding} bg-bg-dark bg-cover text-white flex flex-col items-center gap-2 text-center`}
+            className="section-padding bg-bg-dark bg-cover text-white flex flex-col items-center gap-2 text-center"
             style={{ backgroundImage: `url(${PromoBannerImage})` }}
         >
             <h1 className="heading">Season End Sale: 60% OFF</h1>

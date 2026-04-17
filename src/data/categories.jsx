@@ -33,14 +33,14 @@ export const categories = [
     },
 
     {
-        id: 7,
+        id: 3,
         label: "Sports",
         tag: "PEAK PERFORMANCE",
         icon: SportsIcon,
         image: SportsImg,
     },
     {
-        id: 8,
+        id: 4,
         label: "Gaming",
         tag: "IMMERSIVE EXPERIENCE",
         icon: GamingIcon,
