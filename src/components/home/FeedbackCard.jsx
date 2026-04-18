@@ -11,22 +11,16 @@ export default function FeedbackCard({ userName, position, message }) {
                 <Star />
                 <Star />
             </div>
-            <p
-                className={`text-text-primary italic before:content-['"'] after:content-['"']`}
-            >
+            <p className={`italic before:content-['"'] after:content-['"']`}>
                 {message}
             </p>
             <div className="flex items-center gap-2">
-                <div className="p-2 rounded text-white bg-bg-dark">
+                <div className="p-2 rounded text-white bg-primary">
                     <Profile width={15} className="" />
                 </div>
                 <div className="flex-1 flex flex-col text-sm">
-                    <span className="text-text-primary font-black">
-                        {userName}
-                    </span>
-                    <span className="text-text-secondary text-xs">
-                        {position}
-                    </span>
+                    <span className="text-primary font-black">{userName}</span>
+                    <span className="text-secondary text-xs">{position}</span>
                 </div>
             </div>
         </div>

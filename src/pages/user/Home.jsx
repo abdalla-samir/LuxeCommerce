@@ -8,19 +8,18 @@ import Testimonials from "/src/components/home/Testimonials";
 import { ButtonStyleContext } from "../../context/ButtonStyleContext";
 
 export default function Home() {
-    const sectionPadding = "p-5 py-15";
     const mainButtonStyle =
         "text-white bg-primary hover:bg-accent h-full text-xs font-bold";
     return (
         <>
             <ButtonStyleContext.Provider value={{ mainButtonStyle }}>
-                <Hero padding={sectionPadding} />
-                <Categories padding={sectionPadding} />
-                <FlashSale padding={sectionPadding} />
-                <BestSellers padding={sectionPadding} />
-                <PromoBanner padding={sectionPadding} />
-                <Testimonials padding={sectionPadding} />
-                <Brands padding={sectionPadding} />
+                <Hero />
+                <Categories />
+                <FlashSale />
+                <BestSellers />
+                <PromoBanner />
+                <Testimonials />
+                <Brands />
             </ButtonStyleContext.Provider>
         </>
     );

@@ -7,8 +7,8 @@
 @theme {
     /* ================= Colors =================== */
     --color-primary: #1d2b3e;
-    --color-primary-soft: #111827;
-    --color-primary-light: #1f2937;
+    --color-secondary: #475569;
+    --color-muted: #94a3b8;
 
     --color-accent: #ba0035;
     --color-accent-hover: #be123c;
@@ -19,17 +19,12 @@
     --color-bg-muted: #f1f5f9;
     --color-bg-dark: #1d2b3e;
 
-    --color-text-primary: #0f172a;
-    --color-text-secondary: #475569;
-    --color-text-muted: #94a3b8;
-    --color-text-white: #ffffff;
-
     --color-border: #e2e8f0;
     --color-border-dark: #1f2937;
 
-    --color-success: #22c55e;
+    /* --color-success: #22c55e;
     --color-warning: #f59e0b;
-    --color-error: #ef4444;
+    --color-error: #ef4444; */
     /* ================= Colors =================== */
 
     /* ================= Font sizes =============== */
@@ -51,19 +46,19 @@
         @apply p-5 py-15;
     }
     .navbar-li {
-        @apply hover:text-text-secondary cursor-pointer transition;
+        @apply hover:text-secondary cursor-pointer transition;
     }
     .navbar-category-li {
-        @apply p-4 hover:bg-bg-muted text-text-primary hover:text-text-secondary cursor-pointer transition;
+        @apply p-4 hover:bg-bg-muted text-primary hover:text-secondary cursor-pointer transition;
     }
     .sidebar-li {
-        @apply p-2 hover:bg-bg-muted text-text-primary hover:text-text-secondary text-sm cursor-pointer transition;
+        @apply p-2 hover:bg-bg-muted text-primary hover:text-secondary text-sm cursor-pointer transition;
     }
     .sidebar-a {
-        @apply flex gap-2 p-2 rounded transition  text-text-primary hover:text-text-secondary text-sm hover:bg-bg-muted;
+        @apply flex gap-2 p-2 rounded transition  text-primary hover:text-secondary text-sm hover:bg-bg-muted;
     }
     .sidebar-category-li {
-        @apply p-2 hover:bg-bg-muted  hover:text-text-secondary cursor-pointer transition;
+        @apply p-2 hover:bg-bg-muted  hover:text-secondary cursor-pointer transition;
     }
     .heading {
         @apply text-4xl md:text-5xl lg:text-6xl font-black;

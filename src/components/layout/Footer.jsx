@@ -4,15 +4,15 @@ export default function Footer() {
     const styles = {
         ul: "flex flex-col gap-2  text-sm",
         ulContainer: "flex flex-col gap-2",
-        li: "text-text-muted text-xs",
+        li: "text-muted text-xs",
     };
     return (
-        <div className="bg-bg-dark min-h-96 p-4 flex flex-col">
+        <div className="bg-primary min-h-96 p-4 flex flex-col">
             <div className="flex-1 flex items-center">
                 <div className="my-10 flex-1 grid gap-12  lg:grid-cols-4 md:grid-cols-2 max-md:text-center">
                     <div className={`${styles.ulContainer}`}>
                         <Logo style="text-lg text-white" />
-                        <p className="text-[#9EADC5] text-sm">
+                        <p className="text-muted text-sm">
                             Redefining the digital shopping experience through a
                             lens of curated luxury and architectural excellence.
                         </p>
@@ -69,11 +69,11 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="py-10 text-center border-t border-[#9EADC5]">
-                <p className="text-text-muted text-xs">
+            <div className="py-10 text-center border-t text-muted border-[#9EADC5]">
+                <p className="text-muted text-xs">
                     &copy; 2024 LUXECOMMERCE. All Rights Reserved.
                 </p>
-                <div className="text-text-muted text-xs mt-1 space-x-2">
+                <div className="text-xs mt-1 space-x-2">
                     <a href="#">INSTAGRAM</a>
                     <a href="#">TWITTER</a>
                     <a href="#">LINKEDIN</a>

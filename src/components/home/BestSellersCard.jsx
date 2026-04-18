@@ -29,9 +29,9 @@ export default function BestSellersCard({
                         showMessage={showMessage}
                     />
                 </div>
-                <div className="flex flex-col  p-2 bg-bg-main ">
+                <div className="flex flex-col  p-2 bg-bg-main z">
                     <div className="flex justify-between text-xs">
-                        <span className="text-text-secondary tracking-wider ">
+                        <span className="text-secondary tracking-wider font-medium">
                             {category}
                         </span>
                         <span className="bg-accent text-xs text-white py-0.5 px-2 flex items-center gap-2 justify-between rounded-full">
@@ -39,7 +39,7 @@ export default function BestSellersCard({
                             <span>{rating}</span>
                         </span>
                     </div>
-                    <div className=" flex flex-col">
+                    <div className=" flex flex-col text-primary">
                         <span className="font-medium">{name}</span>
                         <span className="font-black">${price}</span>
                     </div>

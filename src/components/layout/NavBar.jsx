@@ -31,7 +31,7 @@ export default function NavBar() {
                     />
                 )}
                 <div className="max-lg:hidden">
-                    <Logo style="text-text-primary text-2xl" />
+                    <Logo style="text-primary text-2xl" />
                 </div>
             </div>
 
@@ -41,7 +41,7 @@ export default function NavBar() {
             />
             <HeaderLinks />
 
-            <div className="flex gap-6 text-text-secondary">
+            <div className="flex gap-6 text-secondary">
                 <Search placeHolder="Search curated luxury..." />
                 <div className="max-lg:hidden flex gap-6">
                     <WishListIcon width={18} />

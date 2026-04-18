@@ -15,7 +15,7 @@ export default function Categories() {
     return (
         <>
             <div className="bg-bg-section section-padding">
-                <div className="text-text-primary flex max-sm:flex-col gap-2 justify-between items-center mb-4">
+                <div className="text-primary flex max-sm:flex-col gap-2 justify-between items-center mb-4">
                     <Heading label="Browse by Categories" tag="Discover More" />
                     <a
                         href="#"

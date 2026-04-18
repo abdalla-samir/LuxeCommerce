@@ -16,21 +16,19 @@ export default function Hero() {
                 <span className="bg-accent p-2 rounded text-xs text-white font-black uppercase ">
                     Limited Offer
                 </span>
-                <p className="heading font-black text-text-primary">
+                <p className="heading font-black text-primary">
                     Zenith Smart Watch S
                 </p>
-                <p className="text-text-primary font-light">
+                <p className="text-primary font-light">
                     Engineered for the discerning. A fusion of aerospace-grade
                     titanium and precision sensor arrays. Luxury is no longer
                     just observed—it's measured.
                 </p>
                 <div className="flex items-center gap-4">
-                    <span className="text-3xl text-text-primary font-bold">
+                    <span className="text-3xl text-primary font-bold">
                         $349.00
                     </span>
-                    <span className="text-text-muted line-through ">
-                        $420.00
-                    </span>
+                    <span className="text-muted line-through ">$420.00</span>
                 </div>
                 <div className="flex gap-2 max-md:flex-col">
                     <Button
@@ -43,7 +41,7 @@ export default function Hero() {
                     />
                 </div>
                 <div className="max-md:text-center">
-                    <span className="text-text-muted text-sm mb-2 block">
+                    <span className="text-muted text-sm mb-2 block">
                         DEAL ENDS IN
                     </span>
                     <FlashTimer

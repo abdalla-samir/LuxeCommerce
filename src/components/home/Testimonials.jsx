@@ -12,7 +12,7 @@ export default function Testimonials() {
         />
     ));
     return (
-        <div className="section-padding bg-bg-section">
+        <div className="section-padding bg-bg-section text-primary">
             <div className="text-center mb-4">
                 <Heading label="The Luxe Standard" />
                 <p className="text-accent text-sm">

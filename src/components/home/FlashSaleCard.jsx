@@ -37,7 +37,7 @@ export default function FlashSaleCard({
                 </div>
                 <div className="bg-bg-main border-t border-border p-2 flex items-center justify-between">
                     <div>
-                        <h3 className="text-text-primary text-md font-bold">
+                        <h3 className="text-primary text-md font-bold">
                             {label}
                         </h3>
                         <div className="flex">
@@ -45,7 +45,7 @@ export default function FlashSaleCard({
                                 <span className="text-accent font-black text-md">
                                     {finalPrice}$
                                 </span>
-                                <span className="text-text-muted text-sm line-through">
+                                <span className="text-muted text-sm line-through">
                                     {price}$
                                 </span>
                             </div>

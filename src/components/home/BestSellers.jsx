@@ -15,7 +15,7 @@ export default function BestSellers() {
     ));
     return (
         <div className="section-padding bg-bg-section">
-            <div className="text-text-primary flex max-sm:flex-col gap-2 justify-between items-center mb-4">
+            <div className="text-primary flex max-sm:flex-col gap-2 justify-between items-center mb-4">
                 <Heading
                     label="Best Sellers This Week"
                     tag="What Are You Waiting For!!!"

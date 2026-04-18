@@ -4,7 +4,7 @@ import PrimaryLinks from "./PrimaryLinks";
 export default function HeaderLinks() {
     return (
         <>
-            <ul className="text-text-muted flex items-center ml-6 max-lg:hidden gap-6 text-sm flex-1">
+            <ul className="text-muted flex items-center ml-6 max-lg:hidden gap-6 text-sm flex-1">
                 <PrimaryLinks variant="navbar-li" />
                 <InfoLinks variant="navbar-li" />
             </ul>
