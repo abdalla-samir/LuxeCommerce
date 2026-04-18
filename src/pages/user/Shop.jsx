@@ -2,23 +2,32 @@ import ShopContent from "../../components/shop/ShopContent";
 import ShopSideBar from "../../components/shop/ShopSideBar";
 import ShopHeader from "/src/components/shop/ShopHeader";
 import { useState } from "react";
-import { ShopCategoriesContext } from "/src/context/ShopCategoriesContext";
 import { ButtonStyleContext } from "/src/context/ButtonStyleContext";
+import { ShopContext } from "/src/context/ShopContext";
 
 export default function Shop() {
     const [selectedCategory, setSelectedCategory] = useState("all");
+    const [subCategories, setSubCategories] = useState([]);
+    const [inputRange, setInputRange] = useState(0);
 
     return (
         <>
-            <ShopCategoriesContext.Provider
-                value={{ selectedCategory, setSelectedCategory }}
+            <ShopContext.Provider
+                value={{
+                    selectedCategory,
+                    setSelectedCategory,
+                    subCategories,
+                    setSubCategories,
+                    inputRange,
+                    setInputRange,
+                }}
             >
                 <ShopHeader />
-                <div className="grid grid-cols-[300px_1fr] gap-2 min-h-[calc(100vh-132px)] bg-bg-section ">
+                <div className="grid grid-cols-[200px_1fr] gap-2 min-h-[calc(100vh-132px)] bg-bg-section ">
                     <ShopSideBar />
                     <ShopContent />
                 </div>
-            </ShopCategoriesContext.Provider>
+            </ShopContext.Provider>
         </>
     );
 }

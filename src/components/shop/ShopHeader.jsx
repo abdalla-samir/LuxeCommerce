@@ -1,16 +1,18 @@
 import { shopCategories } from "/src/data/shopCategories";
 import { useContext } from "react";
-import { ShopCategoriesContext } from "/src/context/ShopCategoriesContext";
+import { ShopContext } from "/src/context/ShopContext";
 
 export default function ShopHeader() {
-    const { selectedCategory, setSelectedCategory } = useContext(
-        ShopCategoriesContext,
-    );
+    const { selectedCategory, setSelectedCategory, setSubCategories } =
+        useContext(ShopContext);
     const shopCategoriesList = shopCategories.map((obj) => (
         <li key={obj.id}>
             <button
                 className={` text-nowrap shrink-0  text-xs py-1.5 px-4 rounded-lg font-medium uppercase transition duration-200 cursor-pointer ${selectedCategory === obj.id ? "bg-bg-dark text-white " : "bg-bg-muted text-text-secondary"}`}
-                onClick={() => setSelectedCategory(obj.id)}
+                onClick={() => {
+                    setSelectedCategory(obj.id);
+                    setSubCategories([]);
+                }}
             >
                 {obj.name}
             </button>
