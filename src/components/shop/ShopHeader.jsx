@@ -3,8 +3,12 @@ import { useContext } from "react";
 import { ShopContext } from "/src/context/ShopContext";
 
 export default function ShopHeader() {
-    const { selectedCategory, setSelectedCategory, setSubCategories } =
-        useContext(ShopContext);
+    const {
+        selectedCategory,
+        setSelectedCategory,
+        setSubCategories,
+        setInputRange,
+    } = useContext(ShopContext);
     const shopCategoriesList = shopCategories.map((obj) => (
         <li key={obj.id}>
             <button
@@ -12,6 +16,7 @@ export default function ShopHeader() {
                 onClick={() => {
                     setSelectedCategory(obj.id);
                     setSubCategories([]);
+                    setInputRange(0);
                 }}
             >
                 {obj.name}

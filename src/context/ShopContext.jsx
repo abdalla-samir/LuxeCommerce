@@ -7,4 +7,5 @@ export const ShopContext = createContext({
     setSubCategories: () => {},
     selectedCategory: "all",
     setSelectedCategory: () => {},
+    mainButtonStyle: "",
 });

@@ -1,3 +1,18 @@
+import ProductCard from "/src/components/ui/ProductCard";
+import { products } from "/src/data/products";
 export default function ShopProductsSection() {
-    return <h1>Shop Products Section</h1>;
+    const productsArray = products.map((product) => (
+        <ProductCard
+            name={product.name}
+            category={product.category}
+            price={product.price}
+            image={product.image}
+        />
+    ));
+
+    return (
+        <>
+            <div className="grid-auto">{productsArray}</div>
+        </>
+    );
 }
