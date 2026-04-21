@@ -15,7 +15,7 @@ export default function ProductCard({ name, category, price, image }) {
                     onMouseEnter={() => setShowMessage(true)}
                     onMouseLeave={() => setShowMessage(false)}
                 >
-                    <img src={ProductOne} alt={name} />
+                    <img src={image} alt={name} />
 
                     <CardMessage
                         label="Add To Cart"

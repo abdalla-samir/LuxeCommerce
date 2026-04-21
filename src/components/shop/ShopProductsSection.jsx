@@ -4,7 +4,7 @@ import ProductCard from "/src/components/ui/ProductCard";
 import { products } from "/src/data/products";
 export default function ShopProductsSection() {
     const [currentPage, setCurrentPage] = useState(1);
-    const productsPerPage = 6;
+    const productsPerPage = 8;
     const totalPages = Math.ceil(products.length / productsPerPage);
     const startIndex = (currentPage - 1) * productsPerPage;
     // Calculate the button range for pagination
@@ -25,23 +25,25 @@ export default function ShopProductsSection() {
 
     return (
         <>
-            <div className="grid-auto">
-                {currentProducts.map((product) => (
-                    <ProductCard
-                        key={product.id}
-                        name={product.name}
-                        category={product.category}
-                        price={product.price}
-                        image={product.image}
-                    />
-                ))}
+            <div className="flex-1 flex flex-col justify-between gap-6">
+                <div className="grid-auto">
+                    {currentProducts.map((product) => (
+                        <ProductCard
+                            key={product.id}
+                            name={product.name}
+                            category={product.category}
+                            price={product.price}
+                            image={product.image}
+                        />
+                    ))}
+                </div>
+                <Pagination
+                    currentPage={currentPage}
+                    setCurrentPage={setCurrentPage}
+                    startPage={startPage}
+                    endPage={endPage}
+                />
             </div>
-            <Pagination
-                currentPage={currentPage}
-                setCurrentPage={setCurrentPage}
-                startPage={startPage}
-                endPage={endPage}
-            />
         </>
     );
 }

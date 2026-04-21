@@ -22,5 +22,5 @@ export default function Pagination({
             />,
         );
     }
-    return <div className=" flex justify-center mt-10 gap-4">{buttons}</div>;
+    return <div className="flex justify-center gap-4">{buttons}</div>;
 }
