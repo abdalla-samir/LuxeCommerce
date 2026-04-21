@@ -30,8 +30,11 @@ export default function ProductCard({ name, category, price, image }) {
                             {category}
                         </span>
                     </div>
-                    <div className=" flex flex-col text-primary ">
-                        <span className=" uppercase text-sm font-medium">
+                    <div className=" flex flex-col text-primary">
+                        <span
+                            title={name}
+                            className=" uppercase text-sm font-medium w-60  whitespace-nowrap overflow-hidden text-ellipsis"
+                        >
                             {name}
                         </span>
                         <span className="font-black">${price}</span>
