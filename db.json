@@ -1,0 +1,1804 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "fashion",
+      "type": "T-Shirts",
+      "name": "T-Shirts Product 1",
+      "price": 67,
+      "discount": 14,
+      "image": "https://source.unsplash.com/400x400/?T-Shirts"
+    },
+    {
+      "id": 2,
+      "category": "fashion",
+      "type": "Shirts",
+      "name": "Shirts Product 2",
+      "price": 76,
+      "discount": 18,
+      "image": "https://source.unsplash.com/400x400/?Shirts"
+    },
+    {
+      "id": 3,
+      "category": "fashion",
+      "type": "Jeans",
+      "name": "Jeans Product 3",
+      "price": 177,
+      "discount": 10,
+      "image": "https://source.unsplash.com/400x400/?Jeans"
+    },
+    {
+      "id": 4,
+      "category": "fashion",
+      "type": "Jackets",
+      "name": "Jackets Product 4",
+      "price": 154,
+      "discount": 3,
+      "image": "https://source.unsplash.com/400x400/?Jackets"
+    },
+    {
+      "id": 5,
+      "category": "fashion",
+      "type": "Shoes",
+      "name": "Shoes Product 5",
+      "price": 208,
+      "discount": 7,
+      "image": "https://source.unsplash.com/400x400/?Shoes"
+    },
+    {
+      "id": 6,
+      "category": "fashion",
+      "type": "Accessories",
+      "name": "Accessories Product 6",
+      "price": 26,
+      "discount": 18,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    },
+    {
+      "id": 7,
+      "category": "fashion",
+      "type": "T-Shirts",
+      "name": "T-Shirts Product 7",
+      "price": 112,
+      "discount": 1,
+      "image": "https://source.unsplash.com/400x400/?T-Shirts"
+    },
+    {
+      "id": 8,
+      "category": "fashion",
+      "type": "Shirts",
+      "name": "Shirts Product 8",
+      "price": 29,
+      "discount": 15,
+      "image": "https://source.unsplash.com/400x400/?Shirts"
+    },
+    {
+      "id": 9,
+      "category": "fashion",
+      "type": "Jeans",
+      "name": "Jeans Product 9",
+      "price": 140,
+      "discount": 4,
+      "image": "https://source.unsplash.com/400x400/?Jeans"
+    },
+    {
+      "id": 10,
+      "category": "fashion",
+      "type": "Jackets",
+      "name": "Jackets Product 10",
+      "price": 177,
+      "discount": 7,
+      "image": "https://source.unsplash.com/400x400/?Jackets"
+    },
+    {
+      "id": 11,
+      "category": "fashion",
+      "type": "Shoes",
+      "name": "Shoes Product 11",
+      "price": 85,
+      "discount": 12,
+      "image": "https://source.unsplash.com/400x400/?Shoes"
+    },
+    {
+      "id": 12,
+      "category": "fashion",
+      "type": "Accessories",
+      "name": "Accessories Product 12",
+      "price": 97,
+      "discount": 10,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    },
+    {
+      "id": 13,
+      "category": "fashion",
+      "type": "T-Shirts",
+      "name": "T-Shirts Product 13",
+      "price": 105,
+      "discount": 0,
+      "image": "https://source.unsplash.com/400x400/?T-Shirts"
+    },
+    {
+      "id": 14,
+      "category": "fashion",
+      "type": "Shirts",
+      "name": "Shirts Product 14",
+      "price": 24,
+      "discount": 25,
+      "image": "https://source.unsplash.com/400x400/?Shirts"
+    },
+    {
+      "id": 15,
+      "category": "fashion",
+      "type": "Jeans",
+      "name": "Jeans Product 15",
+      "price": 69,
+      "discount": 9,
+      "image": "https://source.unsplash.com/400x400/?Jeans"
+    },
+    {
+      "id": 16,
+      "category": "fashion",
+      "type": "Jackets",
+      "name": "Jackets Product 16",
+      "price": 201,
+      "discount": 21,
+      "image": "https://source.unsplash.com/400x400/?Jackets"
+    },
+    {
+      "id": 17,
+      "category": "fashion",
+      "type": "Shoes",
+      "name": "Shoes Product 17",
+      "price": 121,
+      "discount": 13,
+      "image": "https://source.unsplash.com/400x400/?Shoes"
+    },
+    {
+      "id": 18,
+      "category": "fashion",
+      "type": "Accessories",
+      "name": "Accessories Product 18",
+      "price": 159,
+      "discount": 17,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    },
+    {
+      "id": 19,
+      "category": "fashion",
+      "type": "T-Shirts",
+      "name": "T-Shirts Product 19",
+      "price": 25,
+      "discount": 14,
+      "image": "https://source.unsplash.com/400x400/?T-Shirts"
+    },
+    {
+      "id": 20,
+      "category": "fashion",
+      "type": "Shirts",
+      "name": "Shirts Product 20",
+      "price": 208,
+      "discount": 15,
+      "image": "https://source.unsplash.com/400x400/?Shirts"
+    },
+    {
+      "id": 21,
+      "category": "fashion",
+      "type": "Jeans",
+      "name": "Jeans Product 21",
+      "price": 184,
+      "discount": 10,
+      "image": "https://source.unsplash.com/400x400/?Jeans"
+    },
+    {
+      "id": 22,
+      "category": "fashion",
+      "type": "Jackets",
+      "name": "Jackets Product 22",
+      "price": 169,
+      "discount": 29,
+      "image": "https://source.unsplash.com/400x400/?Jackets"
+    },
+    {
+      "id": 23,
+      "category": "fashion",
+      "type": "Shoes",
+      "name": "Shoes Product 23",
+      "price": 141,
+      "discount": 27,
+      "image": "https://source.unsplash.com/400x400/?Shoes"
+    },
+    {
+      "id": 24,
+      "category": "fashion",
+      "type": "Accessories",
+      "name": "Accessories Product 24",
+      "price": 73,
+      "discount": 7,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    },
+    {
+      "id": 25,
+      "category": "fashion",
+      "type": "T-Shirts",
+      "name": "T-Shirts Product 25",
+      "price": 48,
+      "discount": 4,
+      "image": "https://source.unsplash.com/400x400/?T-Shirts"
+    },
+    {
+      "id": 26,
+      "category": "beauty",
+      "type": "Skincare",
+      "name": "Skincare Product 1",
+      "price": 31,
+      "discount": 22,
+      "image": "https://source.unsplash.com/400x400/?Skincare"
+    },
+    {
+      "id": 27,
+      "category": "beauty",
+      "type": "Makeup",
+      "name": "Makeup Product 2",
+      "price": 170,
+      "discount": 8,
+      "image": "https://source.unsplash.com/400x400/?Makeup"
+    },
+    {
+      "id": 28,
+      "category": "beauty",
+      "type": "Fragrances",
+      "name": "Fragrances Product 3",
+      "price": 150,
+      "discount": 15,
+      "image": "https://source.unsplash.com/400x400/?Fragrances"
+    },
+    {
+      "id": 29,
+      "category": "beauty",
+      "type": "Hair Care",
+      "name": "Hair Care Product 4",
+      "price": 108,
+      "discount": 18,
+      "image": "https://source.unsplash.com/400x400/?Hair Care"
+    },
+    {
+      "id": 30,
+      "category": "beauty",
+      "type": "Tools & Brushes",
+      "name": "Tools & Brushes Product 5",
+      "price": 131,
+      "discount": 14,
+      "image": "https://source.unsplash.com/400x400/?Tools & Brushes"
+    },
+    {
+      "id": 31,
+      "category": "beauty",
+      "type": "Skincare",
+      "name": "Skincare Product 6",
+      "price": 185,
+      "discount": 13,
+      "image": "https://source.unsplash.com/400x400/?Skincare"
+    },
+    {
+      "id": 32,
+      "category": "beauty",
+      "type": "Makeup",
+      "name": "Makeup Product 7",
+      "price": 195,
+      "discount": 6,
+      "image": "https://source.unsplash.com/400x400/?Makeup"
+    },
+    {
+      "id": 33,
+      "category": "beauty",
+      "type": "Fragrances",
+      "name": "Fragrances Product 8",
+      "price": 43,
+      "discount": 3,
+      "image": "https://source.unsplash.com/400x400/?Fragrances"
+    },
+    {
+      "id": 34,
+      "category": "beauty",
+      "type": "Hair Care",
+      "name": "Hair Care Product 9",
+      "price": 79,
+      "discount": 25,
+      "image": "https://source.unsplash.com/400x400/?Hair Care"
+    },
+    {
+      "id": 35,
+      "category": "beauty",
+      "type": "Tools & Brushes",
+      "name": "Tools & Brushes Product 10",
+      "price": 59,
+      "discount": 14,
+      "image": "https://source.unsplash.com/400x400/?Tools & Brushes"
+    },
+    {
+      "id": 36,
+      "category": "beauty",
+      "type": "Skincare",
+      "name": "Skincare Product 11",
+      "price": 167,
+      "discount": 7,
+      "image": "https://source.unsplash.com/400x400/?Skincare"
+    },
+    {
+      "id": 37,
+      "category": "beauty",
+      "type": "Makeup",
+      "name": "Makeup Product 12",
+      "price": 95,
+      "discount": 16,
+      "image": "https://source.unsplash.com/400x400/?Makeup"
+    },
+    {
+      "id": 38,
+      "category": "beauty",
+      "type": "Fragrances",
+      "name": "Fragrances Product 13",
+      "price": 35,
+      "discount": 12,
+      "image": "https://source.unsplash.com/400x400/?Fragrances"
+    },
+    {
+      "id": 39,
+      "category": "beauty",
+      "type": "Hair Care",
+      "name": "Hair Care Product 14",
+      "price": 103,
+      "discount": 9,
+      "image": "https://source.unsplash.com/400x400/?Hair Care"
+    },
+    {
+      "id": 40,
+      "category": "beauty",
+      "type": "Tools & Brushes",
+      "name": "Tools & Brushes Product 15",
+      "price": 119,
+      "discount": 7,
+      "image": "https://source.unsplash.com/400x400/?Tools & Brushes"
+    },
+    {
+      "id": 41,
+      "category": "beauty",
+      "type": "Skincare",
+      "name": "Skincare Product 16",
+      "price": 94,
+      "discount": 2,
+      "image": "https://source.unsplash.com/400x400/?Skincare"
+    },
+    {
+      "id": 42,
+      "category": "beauty",
+      "type": "Makeup",
+      "name": "Makeup Product 17",
+      "price": 164,
+      "discount": 8,
+      "image": "https://source.unsplash.com/400x400/?Makeup"
+    },
+    {
+      "id": 43,
+      "category": "beauty",
+      "type": "Fragrances",
+      "name": "Fragrances Product 18",
+      "price": 121,
+      "discount": 22,
+      "image": "https://source.unsplash.com/400x400/?Fragrances"
+    },
+    {
+      "id": 44,
+      "category": "beauty",
+      "type": "Hair Care",
+      "name": "Hair Care Product 19",
+      "price": 50,
+      "discount": 26,
+      "image": "https://source.unsplash.com/400x400/?Hair Care"
+    },
+    {
+      "id": 45,
+      "category": "beauty",
+      "type": "Tools & Brushes",
+      "name": "Tools & Brushes Product 20",
+      "price": 160,
+      "discount": 2,
+      "image": "https://source.unsplash.com/400x400/?Tools & Brushes"
+    },
+    {
+      "id": 46,
+      "category": "beauty",
+      "type": "Skincare",
+      "name": "Skincare Product 21",
+      "price": 64,
+      "discount": 20,
+      "image": "https://source.unsplash.com/400x400/?Skincare"
+    },
+    {
+      "id": 47,
+      "category": "beauty",
+      "type": "Makeup",
+      "name": "Makeup Product 22",
+      "price": 167,
+      "discount": 9,
+      "image": "https://source.unsplash.com/400x400/?Makeup"
+    },
+    {
+      "id": 48,
+      "category": "beauty",
+      "type": "Fragrances",
+      "name": "Fragrances Product 23",
+      "price": 123,
+      "discount": 25,
+      "image": "https://source.unsplash.com/400x400/?Fragrances"
+    },
+    {
+      "id": 49,
+      "category": "beauty",
+      "type": "Hair Care",
+      "name": "Hair Care Product 24",
+      "price": 50,
+      "discount": 1,
+      "image": "https://source.unsplash.com/400x400/?Hair Care"
+    },
+    {
+      "id": 50,
+      "category": "beauty",
+      "type": "Tools & Brushes",
+      "name": "Tools & Brushes Product 25",
+      "price": 52,
+      "discount": 15,
+      "image": "https://source.unsplash.com/400x400/?Tools & Brushes"
+    },
+    {
+      "id": 51,
+      "category": "accessories",
+      "type": "Watches",
+      "name": "Watches Product 1",
+      "price": 156,
+      "discount": 3,
+      "image": "https://source.unsplash.com/400x400/?Watches"
+    },
+    {
+      "id": 52,
+      "category": "accessories",
+      "type": "Bags",
+      "name": "Bags Product 2",
+      "price": 134,
+      "discount": 4,
+      "image": "https://source.unsplash.com/400x400/?Bags"
+    },
+    {
+      "id": 53,
+      "category": "accessories",
+      "type": "Jewelry",
+      "name": "Jewelry Product 3",
+      "price": 96,
+      "discount": 0,
+      "image": "https://source.unsplash.com/400x400/?Jewelry"
+    },
+    {
+      "id": 54,
+      "category": "accessories",
+      "type": "Sunglasses",
+      "name": "Sunglasses Product 4",
+      "price": 10,
+      "discount": 4,
+      "image": "https://source.unsplash.com/400x400/?Sunglasses"
+    },
+    {
+      "id": 55,
+      "category": "accessories",
+      "type": "Belts",
+      "name": "Belts Product 5",
+      "price": 84,
+      "discount": 14,
+      "image": "https://source.unsplash.com/400x400/?Belts"
+    },
+    {
+      "id": 56,
+      "category": "accessories",
+      "type": "Watches",
+      "name": "Watches Product 6",
+      "price": 102,
+      "discount": 24,
+      "image": "https://source.unsplash.com/400x400/?Watches"
+    },
+    {
+      "id": 57,
+      "category": "accessories",
+      "type": "Bags",
+      "name": "Bags Product 7",
+      "price": 166,
+      "discount": 14,
+      "image": "https://source.unsplash.com/400x400/?Bags"
+    },
+    {
+      "id": 58,
+      "category": "accessories",
+      "type": "Jewelry",
+      "name": "Jewelry Product 8",
+      "price": 71,
+      "discount": 3,
+      "image": "https://source.unsplash.com/400x400/?Jewelry"
+    },
+    {
+      "id": 59,
+      "category": "accessories",
+      "type": "Sunglasses",
+      "name": "Sunglasses Product 9",
+      "price": 161,
+      "discount": 14,
+      "image": "https://source.unsplash.com/400x400/?Sunglasses"
+    },
+    {
+      "id": 60,
+      "category": "accessories",
+      "type": "Belts",
+      "name": "Belts Product 10",
+      "price": 67,
+      "discount": 14,
+      "image": "https://source.unsplash.com/400x400/?Belts"
+    },
+    {
+      "id": 61,
+      "category": "accessories",
+      "type": "Watches",
+      "name": "Watches Product 11",
+      "price": 97,
+      "discount": 6,
+      "image": "https://source.unsplash.com/400x400/?Watches"
+    },
+    {
+      "id": 62,
+      "category": "accessories",
+      "type": "Bags",
+      "name": "Bags Product 12",
+      "price": 151,
+      "discount": 0,
+      "image": "https://source.unsplash.com/400x400/?Bags"
+    },
+    {
+      "id": 63,
+      "category": "accessories",
+      "type": "Jewelry",
+      "name": "Jewelry Product 13",
+      "price": 202,
+      "discount": 11,
+      "image": "https://source.unsplash.com/400x400/?Jewelry"
+    },
+    {
+      "id": 64,
+      "category": "accessories",
+      "type": "Sunglasses",
+      "name": "Sunglasses Product 14",
+      "price": 176,
+      "discount": 6,
+      "image": "https://source.unsplash.com/400x400/?Sunglasses"
+    },
+    {
+      "id": 65,
+      "category": "accessories",
+      "type": "Belts",
+      "name": "Belts Product 15",
+      "price": 89,
+      "discount": 10,
+      "image": "https://source.unsplash.com/400x400/?Belts"
+    },
+    {
+      "id": 66,
+      "category": "accessories",
+      "type": "Watches",
+      "name": "Watches Product 16",
+      "price": 177,
+      "discount": 10,
+      "image": "https://source.unsplash.com/400x400/?Watches"
+    },
+    {
+      "id": 67,
+      "category": "accessories",
+      "type": "Bags",
+      "name": "Bags Product 17",
+      "price": 206,
+      "discount": 6,
+      "image": "https://source.unsplash.com/400x400/?Bags"
+    },
+    {
+      "id": 68,
+      "category": "accessories",
+      "type": "Jewelry",
+      "name": "Jewelry Product 18",
+      "price": 114,
+      "discount": 23,
+      "image": "https://source.unsplash.com/400x400/?Jewelry"
+    },
+    {
+      "id": 69,
+      "category": "accessories",
+      "type": "Sunglasses",
+      "name": "Sunglasses Product 19",
+      "price": 84,
+      "discount": 24,
+      "image": "https://source.unsplash.com/400x400/?Sunglasses"
+    },
+    {
+      "id": 70,
+      "category": "accessories",
+      "type": "Belts",
+      "name": "Belts Product 20",
+      "price": 154,
+      "discount": 29,
+      "image": "https://source.unsplash.com/400x400/?Belts"
+    },
+    {
+      "id": 71,
+      "category": "accessories",
+      "type": "Watches",
+      "name": "Watches Product 21",
+      "price": 110,
+      "discount": 4,
+      "image": "https://source.unsplash.com/400x400/?Watches"
+    },
+    {
+      "id": 72,
+      "category": "accessories",
+      "type": "Bags",
+      "name": "Bags Product 22",
+      "price": 147,
+      "discount": 14,
+      "image": "https://source.unsplash.com/400x400/?Bags"
+    },
+    {
+      "id": 73,
+      "category": "accessories",
+      "type": "Jewelry",
+      "name": "Jewelry Product 23",
+      "price": 179,
+      "discount": 12,
+      "image": "https://source.unsplash.com/400x400/?Jewelry"
+    },
+    {
+      "id": 74,
+      "category": "accessories",
+      "type": "Sunglasses",
+      "name": "Sunglasses Product 24",
+      "price": 34,
+      "discount": 11,
+      "image": "https://source.unsplash.com/400x400/?Sunglasses"
+    },
+    {
+      "id": 75,
+      "category": "accessories",
+      "type": "Belts",
+      "name": "Belts Product 25",
+      "price": 83,
+      "discount": 8,
+      "image": "https://source.unsplash.com/400x400/?Belts"
+    },
+    {
+      "id": 76,
+      "category": "home",
+      "type": "Furniture",
+      "name": "Furniture Product 1",
+      "price": 67,
+      "discount": 25,
+      "image": "https://source.unsplash.com/400x400/?Furniture"
+    },
+    {
+      "id": 77,
+      "category": "home",
+      "type": "Lighting",
+      "name": "Lighting Product 2",
+      "price": 114,
+      "discount": 12,
+      "image": "https://source.unsplash.com/400x400/?Lighting"
+    },
+    {
+      "id": 78,
+      "category": "home",
+      "type": "Decor",
+      "name": "Decor Product 3",
+      "price": 39,
+      "discount": 19,
+      "image": "https://source.unsplash.com/400x400/?Decor"
+    },
+    {
+      "id": 79,
+      "category": "home",
+      "type": "Kitchen",
+      "name": "Kitchen Product 4",
+      "price": 161,
+      "discount": 23,
+      "image": "https://source.unsplash.com/400x400/?Kitchen"
+    },
+    {
+      "id": 80,
+      "category": "home",
+      "type": "Bedding",
+      "name": "Bedding Product 5",
+      "price": 84,
+      "discount": 13,
+      "image": "https://source.unsplash.com/400x400/?Bedding"
+    },
+    {
+      "id": 81,
+      "category": "home",
+      "type": "Furniture",
+      "name": "Furniture Product 6",
+      "price": 120,
+      "discount": 24,
+      "image": "https://source.unsplash.com/400x400/?Furniture"
+    },
+    {
+      "id": 82,
+      "category": "home",
+      "type": "Lighting",
+      "name": "Lighting Product 7",
+      "price": 46,
+      "discount": 1,
+      "image": "https://source.unsplash.com/400x400/?Lighting"
+    },
+    {
+      "id": 83,
+      "category": "home",
+      "type": "Decor",
+      "name": "Decor Product 8",
+      "price": 100,
+      "discount": 5,
+      "image": "https://source.unsplash.com/400x400/?Decor"
+    },
+    {
+      "id": 84,
+      "category": "home",
+      "type": "Kitchen",
+      "name": "Kitchen Product 9",
+      "price": 126,
+      "discount": 12,
+      "image": "https://source.unsplash.com/400x400/?Kitchen"
+    },
+    {
+      "id": 85,
+      "category": "home",
+      "type": "Bedding",
+      "name": "Bedding Product 10",
+      "price": 209,
+      "discount": 14,
+      "image": "https://source.unsplash.com/400x400/?Bedding"
+    },
+    {
+      "id": 86,
+      "category": "home",
+      "type": "Furniture",
+      "name": "Furniture Product 11",
+      "price": 158,
+      "discount": 13,
+      "image": "https://source.unsplash.com/400x400/?Furniture"
+    },
+    {
+      "id": 87,
+      "category": "home",
+      "type": "Lighting",
+      "name": "Lighting Product 12",
+      "price": 30,
+      "discount": 12,
+      "image": "https://source.unsplash.com/400x400/?Lighting"
+    },
+    {
+      "id": 88,
+      "category": "home",
+      "type": "Decor",
+      "name": "Decor Product 13",
+      "price": 24,
+      "discount": 3,
+      "image": "https://source.unsplash.com/400x400/?Decor"
+    },
+    {
+      "id": 89,
+      "category": "home",
+      "type": "Kitchen",
+      "name": "Kitchen Product 14",
+      "price": 41,
+      "discount": 16,
+      "image": "https://source.unsplash.com/400x400/?Kitchen"
+    },
+    {
+      "id": 90,
+      "category": "home",
+      "type": "Bedding",
+      "name": "Bedding Product 15",
+      "price": 70,
+      "discount": 27,
+      "image": "https://source.unsplash.com/400x400/?Bedding"
+    },
+    {
+      "id": 91,
+      "category": "home",
+      "type": "Furniture",
+      "name": "Furniture Product 16",
+      "price": 66,
+      "discount": 4,
+      "image": "https://source.unsplash.com/400x400/?Furniture"
+    },
+    {
+      "id": 92,
+      "category": "home",
+      "type": "Lighting",
+      "name": "Lighting Product 17",
+      "price": 187,
+      "discount": 3,
+      "image": "https://source.unsplash.com/400x400/?Lighting"
+    },
+    {
+      "id": 93,
+      "category": "home",
+      "type": "Decor",
+      "name": "Decor Product 18",
+      "price": 160,
+      "discount": 5,
+      "image": "https://source.unsplash.com/400x400/?Decor"
+    },
+    {
+      "id": 94,
+      "category": "home",
+      "type": "Kitchen",
+      "name": "Kitchen Product 19",
+      "price": 86,
+      "discount": 6,
+      "image": "https://source.unsplash.com/400x400/?Kitchen"
+    },
+    {
+      "id": 95,
+      "category": "home",
+      "type": "Bedding",
+      "name": "Bedding Product 20",
+      "price": 155,
+      "discount": 22,
+      "image": "https://source.unsplash.com/400x400/?Bedding"
+    },
+    {
+      "id": 96,
+      "category": "home",
+      "type": "Furniture",
+      "name": "Furniture Product 21",
+      "price": 198,
+      "discount": 27,
+      "image": "https://source.unsplash.com/400x400/?Furniture"
+    },
+    {
+      "id": 97,
+      "category": "home",
+      "type": "Lighting",
+      "name": "Lighting Product 22",
+      "price": 117,
+      "discount": 17,
+      "image": "https://source.unsplash.com/400x400/?Lighting"
+    },
+    {
+      "id": 98,
+      "category": "home",
+      "type": "Decor",
+      "name": "Decor Product 23",
+      "price": 27,
+      "discount": 2,
+      "image": "https://source.unsplash.com/400x400/?Decor"
+    },
+    {
+      "id": 99,
+      "category": "home",
+      "type": "Kitchen",
+      "name": "Kitchen Product 24",
+      "price": 182,
+      "discount": 17,
+      "image": "https://source.unsplash.com/400x400/?Kitchen"
+    },
+    {
+      "id": 100,
+      "category": "home",
+      "type": "Bedding",
+      "name": "Bedding Product 25",
+      "price": 110,
+      "discount": 18,
+      "image": "https://source.unsplash.com/400x400/?Bedding"
+    },
+    {
+      "id": 101,
+      "category": "electronics",
+      "type": "Headphones",
+      "name": "Headphones Product 1",
+      "price": 37,
+      "discount": 27,
+      "image": "https://source.unsplash.com/400x400/?Headphones"
+    },
+    {
+      "id": 102,
+      "category": "electronics",
+      "type": "Keyboards",
+      "name": "Keyboards Product 2",
+      "price": 208,
+      "discount": 10,
+      "image": "https://source.unsplash.com/400x400/?Keyboards"
+    },
+    {
+      "id": 103,
+      "category": "electronics",
+      "type": "Monitors",
+      "name": "Monitors Product 3",
+      "price": 135,
+      "discount": 24,
+      "image": "https://source.unsplash.com/400x400/?Monitors"
+    },
+    {
+      "id": 104,
+      "category": "electronics",
+      "type": "Cameras",
+      "name": "Cameras Product 4",
+      "price": 52,
+      "discount": 18,
+      "image": "https://source.unsplash.com/400x400/?Cameras"
+    },
+    {
+      "id": 105,
+      "category": "electronics",
+      "type": "Speakers",
+      "name": "Speakers Product 5",
+      "price": 163,
+      "discount": 6,
+      "image": "https://source.unsplash.com/400x400/?Speakers"
+    },
+    {
+      "id": 106,
+      "category": "electronics",
+      "type": "Headphones",
+      "name": "Headphones Product 6",
+      "price": 11,
+      "discount": 2,
+      "image": "https://source.unsplash.com/400x400/?Headphones"
+    },
+    {
+      "id": 107,
+      "category": "electronics",
+      "type": "Keyboards",
+      "name": "Keyboards Product 7",
+      "price": 152,
+      "discount": 0,
+      "image": "https://source.unsplash.com/400x400/?Keyboards"
+    },
+    {
+      "id": 108,
+      "category": "electronics",
+      "type": "Monitors",
+      "name": "Monitors Product 8",
+      "price": 191,
+      "discount": 22,
+      "image": "https://source.unsplash.com/400x400/?Monitors"
+    },
+    {
+      "id": 109,
+      "category": "electronics",
+      "type": "Cameras",
+      "name": "Cameras Product 9",
+      "price": 131,
+      "discount": 4,
+      "image": "https://source.unsplash.com/400x400/?Cameras"
+    },
+    {
+      "id": 110,
+      "category": "electronics",
+      "type": "Speakers",
+      "name": "Speakers Product 10",
+      "price": 37,
+      "discount": 14,
+      "image": "https://source.unsplash.com/400x400/?Speakers"
+    },
+    {
+      "id": 111,
+      "category": "electronics",
+      "type": "Headphones",
+      "name": "Headphones Product 11",
+      "price": 127,
+      "discount": 19,
+      "image": "https://source.unsplash.com/400x400/?Headphones"
+    },
+    {
+      "id": 112,
+      "category": "electronics",
+      "type": "Keyboards",
+      "name": "Keyboards Product 12",
+      "price": 43,
+      "discount": 22,
+      "image": "https://source.unsplash.com/400x400/?Keyboards"
+    },
+    {
+      "id": 113,
+      "category": "electronics",
+      "type": "Monitors",
+      "name": "Monitors Product 13",
+      "price": 15,
+      "discount": 29,
+      "image": "https://source.unsplash.com/400x400/?Monitors"
+    },
+    {
+      "id": 114,
+      "category": "electronics",
+      "type": "Cameras",
+      "name": "Cameras Product 14",
+      "price": 78,
+      "discount": 9,
+      "image": "https://source.unsplash.com/400x400/?Cameras"
+    },
+    {
+      "id": 115,
+      "category": "electronics",
+      "type": "Speakers",
+      "name": "Speakers Product 15",
+      "price": 162,
+      "discount": 17,
+      "image": "https://source.unsplash.com/400x400/?Speakers"
+    },
+    {
+      "id": 116,
+      "category": "electronics",
+      "type": "Headphones",
+      "name": "Headphones Product 16",
+      "price": 126,
+      "discount": 9,
+      "image": "https://source.unsplash.com/400x400/?Headphones"
+    },
+    {
+      "id": 117,
+      "category": "electronics",
+      "type": "Keyboards",
+      "name": "Keyboards Product 17",
+      "price": 172,
+      "discount": 9,
+      "image": "https://source.unsplash.com/400x400/?Keyboards"
+    },
+    {
+      "id": 118,
+      "category": "electronics",
+      "type": "Monitors",
+      "name": "Monitors Product 18",
+      "price": 109,
+      "discount": 25,
+      "image": "https://source.unsplash.com/400x400/?Monitors"
+    },
+    {
+      "id": 119,
+      "category": "electronics",
+      "type": "Cameras",
+      "name": "Cameras Product 19",
+      "price": 85,
+      "discount": 5,
+      "image": "https://source.unsplash.com/400x400/?Cameras"
+    },
+    {
+      "id": 120,
+      "category": "electronics",
+      "type": "Speakers",
+      "name": "Speakers Product 20",
+      "price": 127,
+      "discount": 1,
+      "image": "https://source.unsplash.com/400x400/?Speakers"
+    },
+    {
+      "id": 121,
+      "category": "electronics",
+      "type": "Headphones",
+      "name": "Headphones Product 21",
+      "price": 89,
+      "discount": 27,
+      "image": "https://source.unsplash.com/400x400/?Headphones"
+    },
+    {
+      "id": 122,
+      "category": "electronics",
+      "type": "Keyboards",
+      "name": "Keyboards Product 22",
+      "price": 15,
+      "discount": 4,
+      "image": "https://source.unsplash.com/400x400/?Keyboards"
+    },
+    {
+      "id": 123,
+      "category": "electronics",
+      "type": "Monitors",
+      "name": "Monitors Product 23",
+      "price": 148,
+      "discount": 11,
+      "image": "https://source.unsplash.com/400x400/?Monitors"
+    },
+    {
+      "id": 124,
+      "category": "electronics",
+      "type": "Cameras",
+      "name": "Cameras Product 24",
+      "price": 112,
+      "discount": 22,
+      "image": "https://source.unsplash.com/400x400/?Cameras"
+    },
+    {
+      "id": 125,
+      "category": "electronics",
+      "type": "Speakers",
+      "name": "Speakers Product 25",
+      "price": 166,
+      "discount": 3,
+      "image": "https://source.unsplash.com/400x400/?Speakers"
+    },
+    {
+      "id": 126,
+      "category": "mobiles",
+      "type": "Smartphones",
+      "name": "Smartphones Product 1",
+      "price": 134,
+      "discount": 12,
+      "image": "https://source.unsplash.com/400x400/?Smartphones"
+    },
+    {
+      "id": 127,
+      "category": "mobiles",
+      "type": "Tablets",
+      "name": "Tablets Product 2",
+      "price": 17,
+      "discount": 8,
+      "image": "https://source.unsplash.com/400x400/?Tablets"
+    },
+    {
+      "id": 128,
+      "category": "mobiles",
+      "type": "Smartwatches",
+      "name": "Smartwatches Product 3",
+      "price": 93,
+      "discount": 6,
+      "image": "https://source.unsplash.com/400x400/?Smartwatches"
+    },
+    {
+      "id": 129,
+      "category": "mobiles",
+      "type": "Accessories",
+      "name": "Accessories Product 4",
+      "price": 105,
+      "discount": 20,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    },
+    {
+      "id": 130,
+      "category": "mobiles",
+      "type": "Smartphones",
+      "name": "Smartphones Product 5",
+      "price": 133,
+      "discount": 19,
+      "image": "https://source.unsplash.com/400x400/?Smartphones"
+    },
+    {
+      "id": 131,
+      "category": "mobiles",
+      "type": "Tablets",
+      "name": "Tablets Product 6",
+      "price": 153,
+      "discount": 18,
+      "image": "https://source.unsplash.com/400x400/?Tablets"
+    },
+    {
+      "id": 132,
+      "category": "mobiles",
+      "type": "Smartwatches",
+      "name": "Smartwatches Product 7",
+      "price": 96,
+      "discount": 13,
+      "image": "https://source.unsplash.com/400x400/?Smartwatches"
+    },
+    {
+      "id": 133,
+      "category": "mobiles",
+      "type": "Accessories",
+      "name": "Accessories Product 8",
+      "price": 58,
+      "discount": 24,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    },
+    {
+      "id": 134,
+      "category": "mobiles",
+      "type": "Smartphones",
+      "name": "Smartphones Product 9",
+      "price": 186,
+      "discount": 7,
+      "image": "https://source.unsplash.com/400x400/?Smartphones"
+    },
+    {
+      "id": 135,
+      "category": "mobiles",
+      "type": "Tablets",
+      "name": "Tablets Product 10",
+      "price": 34,
+      "discount": 4,
+      "image": "https://source.unsplash.com/400x400/?Tablets"
+    },
+    {
+      "id": 136,
+      "category": "mobiles",
+      "type": "Smartwatches",
+      "name": "Smartwatches Product 11",
+      "price": 16,
+      "discount": 4,
+      "image": "https://source.unsplash.com/400x400/?Smartwatches"
+    },
+    {
+      "id": 137,
+      "category": "mobiles",
+      "type": "Accessories",
+      "name": "Accessories Product 12",
+      "price": 74,
+      "discount": 1,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    },
+    {
+      "id": 138,
+      "category": "mobiles",
+      "type": "Smartphones",
+      "name": "Smartphones Product 13",
+      "price": 18,
+      "discount": 15,
+      "image": "https://source.unsplash.com/400x400/?Smartphones"
+    },
+    {
+      "id": 139,
+      "category": "mobiles",
+      "type": "Tablets",
+      "name": "Tablets Product 14",
+      "price": 155,
+      "discount": 2,
+      "image": "https://source.unsplash.com/400x400/?Tablets"
+    },
+    {
+      "id": 140,
+      "category": "mobiles",
+      "type": "Smartwatches",
+      "name": "Smartwatches Product 15",
+      "price": 66,
+      "discount": 28,
+      "image": "https://source.unsplash.com/400x400/?Smartwatches"
+    },
+    {
+      "id": 141,
+      "category": "mobiles",
+      "type": "Accessories",
+      "name": "Accessories Product 16",
+      "price": 142,
+      "discount": 8,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    },
+    {
+      "id": 142,
+      "category": "mobiles",
+      "type": "Smartphones",
+      "name": "Smartphones Product 17",
+      "price": 53,
+      "discount": 20,
+      "image": "https://source.unsplash.com/400x400/?Smartphones"
+    },
+    {
+      "id": 143,
+      "category": "mobiles",
+      "type": "Tablets",
+      "name": "Tablets Product 18",
+      "price": 64,
+      "discount": 15,
+      "image": "https://source.unsplash.com/400x400/?Tablets"
+    },
+    {
+      "id": 144,
+      "category": "mobiles",
+      "type": "Smartwatches",
+      "name": "Smartwatches Product 19",
+      "price": 153,
+      "discount": 15,
+      "image": "https://source.unsplash.com/400x400/?Smartwatches"
+    },
+    {
+      "id": 145,
+      "category": "mobiles",
+      "type": "Accessories",
+      "name": "Accessories Product 20",
+      "price": 144,
+      "discount": 3,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    },
+    {
+      "id": 146,
+      "category": "mobiles",
+      "type": "Smartphones",
+      "name": "Smartphones Product 21",
+      "price": 96,
+      "discount": 20,
+      "image": "https://source.unsplash.com/400x400/?Smartphones"
+    },
+    {
+      "id": 147,
+      "category": "mobiles",
+      "type": "Tablets",
+      "name": "Tablets Product 22",
+      "price": 184,
+      "discount": 1,
+      "image": "https://source.unsplash.com/400x400/?Tablets"
+    },
+    {
+      "id": 148,
+      "category": "mobiles",
+      "type": "Smartwatches",
+      "name": "Smartwatches Product 23",
+      "price": 154,
+      "discount": 3,
+      "image": "https://source.unsplash.com/400x400/?Smartwatches"
+    },
+    {
+      "id": 149,
+      "category": "mobiles",
+      "type": "Accessories",
+      "name": "Accessories Product 24",
+      "price": 48,
+      "discount": 9,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    },
+    {
+      "id": 150,
+      "category": "mobiles",
+      "type": "Smartphones",
+      "name": "Smartphones Product 25",
+      "price": 102,
+      "discount": 0,
+      "image": "https://source.unsplash.com/400x400/?Smartphones"
+    },
+    {
+      "id": 151,
+      "category": "sports",
+      "type": "Activewear",
+      "name": "Activewear Product 1",
+      "price": 129,
+      "discount": 6,
+      "image": "https://source.unsplash.com/400x400/?Activewear"
+    },
+    {
+      "id": 152,
+      "category": "sports",
+      "type": "Shoes",
+      "name": "Shoes Product 2",
+      "price": 203,
+      "discount": 26,
+      "image": "https://source.unsplash.com/400x400/?Shoes"
+    },
+    {
+      "id": 153,
+      "category": "sports",
+      "type": "Fitness Equipment",
+      "name": "Fitness Equipment Product 3",
+      "price": 47,
+      "discount": 1,
+      "image": "https://source.unsplash.com/400x400/?Fitness Equipment"
+    },
+    {
+      "id": 154,
+      "category": "sports",
+      "type": "Outdoor Gear",
+      "name": "Outdoor Gear Product 4",
+      "price": 111,
+      "discount": 16,
+      "image": "https://source.unsplash.com/400x400/?Outdoor Gear"
+    },
+    {
+      "id": 155,
+      "category": "sports",
+      "type": "Activewear",
+      "name": "Activewear Product 5",
+      "price": 130,
+      "discount": 15,
+      "image": "https://source.unsplash.com/400x400/?Activewear"
+    },
+    {
+      "id": 156,
+      "category": "sports",
+      "type": "Shoes",
+      "name": "Shoes Product 6",
+      "price": 70,
+      "discount": 14,
+      "image": "https://source.unsplash.com/400x400/?Shoes"
+    },
+    {
+      "id": 157,
+      "category": "sports",
+      "type": "Fitness Equipment",
+      "name": "Fitness Equipment Product 7",
+      "price": 175,
+      "discount": 1,
+      "image": "https://source.unsplash.com/400x400/?Fitness Equipment"
+    },
+    {
+      "id": 158,
+      "category": "sports",
+      "type": "Outdoor Gear",
+      "name": "Outdoor Gear Product 8",
+      "price": 204,
+      "discount": 2,
+      "image": "https://source.unsplash.com/400x400/?Outdoor Gear"
+    },
+    {
+      "id": 159,
+      "category": "sports",
+      "type": "Activewear",
+      "name": "Activewear Product 9",
+      "price": 200,
+      "discount": 1,
+      "image": "https://source.unsplash.com/400x400/?Activewear"
+    },
+    {
+      "id": 160,
+      "category": "sports",
+      "type": "Shoes",
+      "name": "Shoes Product 10",
+      "price": 131,
+      "discount": 12,
+      "image": "https://source.unsplash.com/400x400/?Shoes"
+    },
+    {
+      "id": 161,
+      "category": "sports",
+      "type": "Fitness Equipment",
+      "name": "Fitness Equipment Product 11",
+      "price": 108,
+      "discount": 25,
+      "image": "https://source.unsplash.com/400x400/?Fitness Equipment"
+    },
+    {
+      "id": 162,
+      "category": "sports",
+      "type": "Outdoor Gear",
+      "name": "Outdoor Gear Product 12",
+      "price": 205,
+      "discount": 7,
+      "image": "https://source.unsplash.com/400x400/?Outdoor Gear"
+    },
+    {
+      "id": 163,
+      "category": "sports",
+      "type": "Activewear",
+      "name": "Activewear Product 13",
+      "price": 92,
+      "discount": 17,
+      "image": "https://source.unsplash.com/400x400/?Activewear"
+    },
+    {
+      "id": 164,
+      "category": "sports",
+      "type": "Shoes",
+      "name": "Shoes Product 14",
+      "price": 196,
+      "discount": 28,
+      "image": "https://source.unsplash.com/400x400/?Shoes"
+    },
+    {
+      "id": 165,
+      "category": "sports",
+      "type": "Fitness Equipment",
+      "name": "Fitness Equipment Product 15",
+      "price": 117,
+      "discount": 3,
+      "image": "https://source.unsplash.com/400x400/?Fitness Equipment"
+    },
+    {
+      "id": 166,
+      "category": "sports",
+      "type": "Outdoor Gear",
+      "name": "Outdoor Gear Product 16",
+      "price": 138,
+      "discount": 2,
+      "image": "https://source.unsplash.com/400x400/?Outdoor Gear"
+    },
+    {
+      "id": 167,
+      "category": "sports",
+      "type": "Activewear",
+      "name": "Activewear Product 17",
+      "price": 176,
+      "discount": 11,
+      "image": "https://source.unsplash.com/400x400/?Activewear"
+    },
+    {
+      "id": 168,
+      "category": "sports",
+      "type": "Shoes",
+      "name": "Shoes Product 18",
+      "price": 150,
+      "discount": 18,
+      "image": "https://source.unsplash.com/400x400/?Shoes"
+    },
+    {
+      "id": 169,
+      "category": "sports",
+      "type": "Fitness Equipment",
+      "name": "Fitness Equipment Product 19",
+      "price": 142,
+      "discount": 1,
+      "image": "https://source.unsplash.com/400x400/?Fitness Equipment"
+    },
+    {
+      "id": 170,
+      "category": "sports",
+      "type": "Outdoor Gear",
+      "name": "Outdoor Gear Product 20",
+      "price": 145,
+      "discount": 25,
+      "image": "https://source.unsplash.com/400x400/?Outdoor Gear"
+    },
+    {
+      "id": 171,
+      "category": "sports",
+      "type": "Activewear",
+      "name": "Activewear Product 21",
+      "price": 161,
+      "discount": 14,
+      "image": "https://source.unsplash.com/400x400/?Activewear"
+    },
+    {
+      "id": 172,
+      "category": "sports",
+      "type": "Shoes",
+      "name": "Shoes Product 22",
+      "price": 60,
+      "discount": 21,
+      "image": "https://source.unsplash.com/400x400/?Shoes"
+    },
+    {
+      "id": 173,
+      "category": "sports",
+      "type": "Fitness Equipment",
+      "name": "Fitness Equipment Product 23",
+      "price": 125,
+      "discount": 2,
+      "image": "https://source.unsplash.com/400x400/?Fitness Equipment"
+    },
+    {
+      "id": 174,
+      "category": "sports",
+      "type": "Outdoor Gear",
+      "name": "Outdoor Gear Product 24",
+      "price": 122,
+      "discount": 29,
+      "image": "https://source.unsplash.com/400x400/?Outdoor Gear"
+    },
+    {
+      "id": 175,
+      "category": "sports",
+      "type": "Activewear",
+      "name": "Activewear Product 25",
+      "price": 192,
+      "discount": 23,
+      "image": "https://source.unsplash.com/400x400/?Activewear"
+    },
+    {
+      "id": 176,
+      "category": "gaming",
+      "type": "Keyboards",
+      "name": "Keyboards Product 1",
+      "price": 42,
+      "discount": 11,
+      "image": "https://source.unsplash.com/400x400/?Keyboards"
+    },
+    {
+      "id": 177,
+      "category": "gaming",
+      "type": "Mice",
+      "name": "Mice Product 2",
+      "price": 185,
+      "discount": 7,
+      "image": "https://source.unsplash.com/400x400/?Mice"
+    },
+    {
+      "id": 178,
+      "category": "gaming",
+      "type": "Headsets",
+      "name": "Headsets Product 3",
+      "price": 84,
+      "discount": 12,
+      "image": "https://source.unsplash.com/400x400/?Headsets"
+    },
+    {
+      "id": 179,
+      "category": "gaming",
+      "type": "Consoles",
+      "name": "Consoles Product 4",
+      "price": 68,
+      "discount": 2,
+      "image": "https://source.unsplash.com/400x400/?Consoles"
+    },
+    {
+      "id": 180,
+      "category": "gaming",
+      "type": "Accessories",
+      "name": "Accessories Product 5",
+      "price": 17,
+      "discount": 16,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    },
+    {
+      "id": 181,
+      "category": "gaming",
+      "type": "Keyboards",
+      "name": "Keyboards Product 6",
+      "price": 80,
+      "discount": 7,
+      "image": "https://source.unsplash.com/400x400/?Keyboards"
+    },
+    {
+      "id": 182,
+      "category": "gaming",
+      "type": "Mice",
+      "name": "Mice Product 7",
+      "price": 71,
+      "discount": 18,
+      "image": "https://source.unsplash.com/400x400/?Mice"
+    },
+    {
+      "id": 183,
+      "category": "gaming",
+      "type": "Headsets",
+      "name": "Headsets Product 8",
+      "price": 94,
+      "discount": 27,
+      "image": "https://source.unsplash.com/400x400/?Headsets"
+    },
+    {
+      "id": 184,
+      "category": "gaming",
+      "type": "Consoles",
+      "name": "Consoles Product 9",
+      "price": 58,
+      "discount": 18,
+      "image": "https://source.unsplash.com/400x400/?Consoles"
+    },
+    {
+      "id": 185,
+      "category": "gaming",
+      "type": "Accessories",
+      "name": "Accessories Product 10",
+      "price": 27,
+      "discount": 21,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    },
+    {
+      "id": 186,
+      "category": "gaming",
+      "type": "Keyboards",
+      "name": "Keyboards Product 11",
+      "price": 76,
+      "discount": 24,
+      "image": "https://source.unsplash.com/400x400/?Keyboards"
+    },
+    {
+      "id": 187,
+      "category": "gaming",
+      "type": "Mice",
+      "name": "Mice Product 12",
+      "price": 60,
+      "discount": 29,
+      "image": "https://source.unsplash.com/400x400/?Mice"
+    },
+    {
+      "id": 188,
+      "category": "gaming",
+      "type": "Headsets",
+      "name": "Headsets Product 13",
+      "price": 149,
+      "discount": 27,
+      "image": "https://source.unsplash.com/400x400/?Headsets"
+    },
+    {
+      "id": 189,
+      "category": "gaming",
+      "type": "Consoles",
+      "name": "Consoles Product 14",
+      "price": 201,
+      "discount": 20,
+      "image": "https://source.unsplash.com/400x400/?Consoles"
+    },
+    {
+      "id": 190,
+      "category": "gaming",
+      "type": "Accessories",
+      "name": "Accessories Product 15",
+      "price": 83,
+      "discount": 29,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    },
+    {
+      "id": 191,
+      "category": "gaming",
+      "type": "Keyboards",
+      "name": "Keyboards Product 16",
+      "price": 27,
+      "discount": 19,
+      "image": "https://source.unsplash.com/400x400/?Keyboards"
+    },
+    {
+      "id": 192,
+      "category": "gaming",
+      "type": "Mice",
+      "name": "Mice Product 17",
+      "price": 185,
+      "discount": 5,
+      "image": "https://source.unsplash.com/400x400/?Mice"
+    },
+    {
+      "id": 193,
+      "category": "gaming",
+      "type": "Headsets",
+      "name": "Headsets Product 18",
+      "price": 15,
+      "discount": 29,
+      "image": "https://source.unsplash.com/400x400/?Headsets"
+    },
+    {
+      "id": 194,
+      "category": "gaming",
+      "type": "Consoles",
+      "name": "Consoles Product 19",
+      "price": 32,
+      "discount": 29,
+      "image": "https://source.unsplash.com/400x400/?Consoles"
+    },
+    {
+      "id": 195,
+      "category": "gaming",
+      "type": "Accessories",
+      "name": "Accessories Product 20",
+      "price": 40,
+      "discount": 6,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    },
+    {
+      "id": 196,
+      "category": "gaming",
+      "type": "Keyboards",
+      "name": "Keyboards Product 21",
+      "price": 142,
+      "discount": 24,
+      "image": "https://source.unsplash.com/400x400/?Keyboards"
+    },
+    {
+      "id": 197,
+      "category": "gaming",
+      "type": "Mice",
+      "name": "Mice Product 22",
+      "price": 72,
+      "discount": 14,
+      "image": "https://source.unsplash.com/400x400/?Mice"
+    },
+    {
+      "id": 198,
+      "category": "gaming",
+      "type": "Headsets",
+      "name": "Headsets Product 23",
+      "price": 165,
+      "discount": 22,
+      "image": "https://source.unsplash.com/400x400/?Headsets"
+    },
+    {
+      "id": 199,
+      "category": "gaming",
+      "type": "Consoles",
+      "name": "Consoles Product 24",
+      "price": 187,
+      "discount": 2,
+      "image": "https://source.unsplash.com/400x400/?Consoles"
+    },
+    {
+      "id": 200,
+      "category": "gaming",
+      "type": "Accessories",
+      "name": "Accessories Product 25",
+      "price": 109,
+      "discount": 28,
+      "image": "https://source.unsplash.com/400x400/?Accessories"
+    }
+  ]
+}
