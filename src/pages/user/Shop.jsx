@@ -9,6 +9,7 @@ export default function Shop() {
     const [selectedCategory, setSelectedCategory] = useState("all");
     const [subCategories, setSubCategories] = useState([]);
     const [inputRange, setInputRange] = useState(0);
+    const [currentPage, setCurrentPage] = useState(1);
     const mainButtonStyle =
         "text-white bg-primary hover:bg-accent h-full text-xs font-bold";
     return (
@@ -22,6 +23,8 @@ export default function Shop() {
                     inputRange,
                     setInputRange,
                     mainButtonStyle,
+                    currentPage,
+                    setCurrentPage,
                 }}
             >
                 <ShopHeader />

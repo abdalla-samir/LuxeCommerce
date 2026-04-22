@@ -8,4 +8,6 @@ export const ShopContext = createContext({
     selectedCategory: "all",
     setSelectedCategory: () => {},
     mainButtonStyle: "",
+    currentPage: 1,
+    setCurrentPage: () => {},
 });

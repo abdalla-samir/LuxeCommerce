@@ -1,12 +1,11 @@
-import { useState } from "react";
 import Pagination from "./Pagination";
 import ProductCard from "/src/components/ui/ProductCard";
 import { products } from "/src/data/products";
 import { ShopContext } from "/src/context/ShopContext";
 import { useContext } from "react";
 export default function ShopProductsSection() {
-    const { subCategories, selectedCategory } = useContext(ShopContext);
-    const [currentPage, setCurrentPage] = useState(1);
+    const { subCategories, selectedCategory, currentPage, setCurrentPage } =
+        useContext(ShopContext);
     const productsPerPage = 8;
     const filteredProducts = products.filter((product) => {
         if (selectedCategory === "all") {
