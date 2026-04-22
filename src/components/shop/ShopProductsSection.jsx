@@ -2,13 +2,26 @@ import { useState } from "react";
 import Pagination from "./Pagination";
 import ProductCard from "/src/components/ui/ProductCard";
 import { products } from "/src/data/products";
+import { ShopContext } from "/src/context/ShopContext";
+import { useContext } from "react";
 export default function ShopProductsSection() {
+    const { subCategories, selectedCategory } = useContext(ShopContext);
     const [currentPage, setCurrentPage] = useState(1);
     const productsPerPage = 8;
-    const totalPages = Math.ceil(products.length / productsPerPage);
+    const filteredProducts = products.filter((product) => {
+        if (selectedCategory === "all") {
+            return true;
+        } else {
+            return (
+                product.category.toLowerCase() ===
+                selectedCategory.toLowerCase()
+            );
+        }
+    });
+    const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
     const startIndex = (currentPage - 1) * productsPerPage;
     // Calculate the button range for pagination
-    const currentProducts = products.slice(
+    const currentProducts = filteredProducts.slice(
         startIndex,
         startIndex + productsPerPage,
     );
