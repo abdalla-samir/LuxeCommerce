@@ -17,7 +17,7 @@ export default function ShopHeader() {
                 onClick={() => {
                     setSelectedCategory(obj.id);
                     setSubCategories([]);
-                    setInputRange(0);
+                    setInputRange([0]);
                     setCurrentPage(1);
                 }}
             >

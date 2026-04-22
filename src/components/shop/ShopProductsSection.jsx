@@ -4,19 +4,44 @@ import { products } from "/src/data/products";
 import { ShopContext } from "/src/context/ShopContext";
 import { useContext } from "react";
 export default function ShopProductsSection() {
-    const { subCategories, selectedCategory, currentPage, setCurrentPage } =
-        useContext(ShopContext);
+    const {
+        subCategories,
+        selectedCategory,
+        currentPage,
+        setCurrentPage,
+        inputRange,
+    } = useContext(ShopContext);
     const productsPerPage = 8;
-    const filteredProducts = products.filter((product) => {
-        if (selectedCategory === "all") {
-            return true;
-        } else {
-            return (
-                product.category.toLowerCase() ===
-                selectedCategory.toLowerCase()
-            );
-        }
-    });
+    const normalizedSubCategories = subCategories.map((cat) =>
+        cat.toLowerCase(),
+    );
+    const filteredProducts = products
+        .filter((product) => {
+            if (selectedCategory === "all") {
+                return true;
+            } else {
+                return (
+                    product.category.toLowerCase() ===
+                    selectedCategory.toLowerCase()
+                );
+            }
+        })
+        .filter((product) => {
+            if (subCategories.length === 0) {
+                return true;
+            } else {
+                return normalizedSubCategories.includes(
+                    product.subcategory.toLowerCase(),
+                );
+            }
+        })
+        .filter((product) => {
+            if (inputRange[0] === 0) {
+                return true;
+            } else {
+                return product.price <= inputRange[0];
+            }
+        });
     const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
     const startIndex = (currentPage - 1) * productsPerPage;
     // Calculate the button range for pagination
