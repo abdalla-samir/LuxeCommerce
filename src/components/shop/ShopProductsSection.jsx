@@ -50,6 +50,13 @@ export default function ShopProductsSection() {
                         />
                     ))}
                 </div>
+                {currentProducts.length === 0 && (
+                    <div className="flex-1 flex items-center justify-center">
+                        <p className="bg-white text-center text-accent p-4 rounded-xl">
+                            No products found in this category.
+                        </p>
+                    </div>
+                )}
                 <Pagination
                     currentPage={currentPage}
                     setCurrentPage={setCurrentPage}
