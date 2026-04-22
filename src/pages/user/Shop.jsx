@@ -8,7 +8,7 @@ import { ShopContext } from "/src/context/ShopContext";
 export default function Shop() {
     const [selectedCategory, setSelectedCategory] = useState("all");
     const [subCategories, setSubCategories] = useState([]);
-    const [inputRange, setInputRange] = useState(0);
+    const [inputRange, setInputRange] = useState([0]);
     const [currentPage, setCurrentPage] = useState(1);
     const mainButtonStyle =
         "text-white bg-primary hover:bg-accent h-full text-xs font-bold";
