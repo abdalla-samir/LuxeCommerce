@@ -8,6 +8,7 @@ export default function ShopHeader() {
         setSelectedCategory,
         setSubCategories,
         setInputRange,
+        setCurrentPage,
     } = useContext(ShopContext);
     const shopCategoriesList = shopCategories.map((obj) => (
         <li key={obj.id}>
@@ -17,6 +18,7 @@ export default function ShopHeader() {
                     setSelectedCategory(obj.id);
                     setSubCategories([]);
                     setInputRange(0);
+                    setCurrentPage(1);
                 }}
             >
                 {obj.name}
