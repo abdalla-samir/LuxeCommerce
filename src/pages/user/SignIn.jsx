@@ -10,7 +10,7 @@ import AuthDivider from "../../components/authentication/AuthDivider";
 import Heading from "../../components/ui/Heading";
 
 export default function SignIn() {
-    const inputStyle = "p-2 outline-none text-sm flex-1";
+    const inputStyle = "p-2 outline-none text-sm flex-1 placeholder:text-muted";
     const [formData, setFormData] = useState({
         email: "",
         password: "",
@@ -39,7 +39,7 @@ export default function SignIn() {
                         }))
                     }
                     placeholder="name@example.com"
-                    className={`${inputStyle} placeholder:text-muted`}
+                    className={`${inputStyle} `}
                 />
                 <FormInput
                     label="Password"
