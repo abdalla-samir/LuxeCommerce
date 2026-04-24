@@ -5,6 +5,7 @@ import Home from "../pages/user/Home";
 import Shop from "../pages/user/Shop";
 import SignIn from "../pages/user/SignIn";
 import SignUp from "../pages/user/SignUp";
+import ForgotPassword from "../pages/user/ForgotPassword";
 
 export default function AppRoutes() {
     return (
@@ -17,6 +18,10 @@ export default function AppRoutes() {
                 <Route element={<AuthenticationLayout />}>
                     <Route path="auth/sign-in" element={<SignIn />} />
                     <Route path="auth/sign-up" element={<SignUp />} />
+                    <Route
+                        path="auth/forgot-password"
+                        element={<ForgotPassword />}
+                    />
                 </Route>
             </Routes>
         </BrowserRouter>

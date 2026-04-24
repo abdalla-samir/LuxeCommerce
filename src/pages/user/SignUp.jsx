@@ -7,6 +7,7 @@ import Google from "/src/assets/icons/google.svg?react";
 import Button from "/src/components/common/Button";
 import FormInput from "../../components/authentication/FormInput";
 import AuthDivider from "../../components/authentication/AuthDivider";
+import Heading from "../../components/ui/Heading";
 
 export default function SignUp() {
     const inputStyle = "p-2 outline-none text-sm flex-1";
@@ -21,9 +22,11 @@ export default function SignUp() {
     };
     return (
         <>
-            <p className="text-secondary tracking-widest uppercase -mt-4 ">
-                Enter your credentials to access your account
-            </p>
+            <Heading
+                label="LuxeCommerce"
+                description="Enter your credentials to access your account"
+            />
+
             <form className="flex flex-col gap-6" onSubmit={handleSubmit}>
                 <FormInput
                     label="Full Name"
