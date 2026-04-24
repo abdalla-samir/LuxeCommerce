@@ -1,18 +1,20 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
-import Logo from "/src/components/ui/Logo";
-import Button from "/src/components/common/Button";
+import Profile from "/src/assets/icons/profile.svg?react";
 import Email from "/src/assets/icons/email.svg?react";
 import Password from "/src/assets/icons/password.svg?react";
+import ConfirmPassword from "/src/assets/icons/confirm-password.svg?react";
 import Google from "/src/assets/icons/google.svg?react";
+import Button from "/src/components/common/Button";
 import FormInput from "../../components/authentication/FormInput";
 import AuthDivider from "../../components/authentication/AuthDivider";
 
-export default function SignIn() {
+export default function SignUp() {
     const inputStyle = "p-2 outline-none text-sm flex-1";
     const [formData, setFormData] = useState({
+        fullName: "",
         email: "",
         password: "",
+        confirmPassword: "",
     });
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -23,6 +25,21 @@ export default function SignIn() {
                 Enter your credentials to access your account
             </p>
             <form className="flex flex-col gap-6" onSubmit={handleSubmit}>
+                <FormInput
+                    label="Full Name"
+                    name="fullName"
+                    icon={<Profile className="w-4" />}
+                    type="text"
+                    value={formData.fullName}
+                    onChange={(event) =>
+                        setFormData((prev) => ({
+                            ...prev,
+                            fullName: event.target.value,
+                        }))
+                    }
+                    placeholder="Alexander Thorne"
+                    className={`${inputStyle} placeholder:text-muted`}
+                />
                 <FormInput
                     label="Email"
                     name="email"
@@ -44,7 +61,6 @@ export default function SignIn() {
                     icon={<Password className="w-4" />}
                     type="password"
                     value={formData.password}
-                    forgotPasswordLink={true}
                     onChange={(event) =>
                         setFormData((prev) => ({
                             ...prev,
@@ -54,21 +70,36 @@ export default function SignIn() {
                     placeholder="..........................."
                     className={`${inputStyle} placeholder:text-muted`}
                 />
+                <FormInput
+                    label="Confirm Password"
+                    name="confirmPassword"
+                    icon={<ConfirmPassword className="w-4" />}
+                    type="password"
+                    value={formData.confirmPassword}
+                    onChange={(event) =>
+                        setFormData((prev) => ({
+                            ...prev,
+                            confirmPassword: event.target.value,
+                        }))
+                    }
+                    placeholder="..........................."
+                    className={`${inputStyle} placeholder:text-muted`}
+                />
                 <Button
-                    label="SIGN IN"
-                    style="bg-primary text-white py-3 rounded w-full uppercase tracking-wider font-medium text-sm"
+                    label="Create Account"
+                    style="bg-primary text-white py-3 rounded w-full uppercase tracking-wider font-medium text-sm uppercase"
                 />
             </form>
             <AuthDivider
-                dividerLabel="or securely"
+                dividerLabel="or"
                 socialLoginButtons={
                     <button className="border border-border p-4 rounded cursor-pointer text-sm">
                         <Google className="w-5 inline-block mr-2" />
-                        <span>Continue with google</span>
+                        <span>Sign up with google</span>
                     </button>
                 }
-                footerLink="/auth/sign-up"
-                footerLinkLabel="Sign up"
+                footerLink="/auth/sign-in"
+                footerLinkLabel="Sign in"
             />
         </>
     );
