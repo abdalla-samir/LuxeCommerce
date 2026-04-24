@@ -1,4 +1,6 @@
 import Button from "/src/components/common/Button";
+import Arrow from "/src/assets/icons/arrow.svg?react";
+
 export default function Pagination({
     currentPage,
     setCurrentPage,
@@ -22,5 +24,23 @@ export default function Pagination({
             />,
         );
     }
-    return <div className="flex justify-center gap-4">{buttons}</div>;
+    return (
+        <div className="flex justify-center gap-4">
+            <Button
+                label={<Arrow className="rotate-90 w-4 " />}
+                style="bg-muted hover:bg-primary text-white p-2 rounded max-w-10 flex items-center justify-center"
+                onClick={() => {
+                    setCurrentPage((prev) => Math.max(prev - 1, startPage));
+                }}
+            />
+            {buttons}
+            <Button
+                label={<Arrow className="-rotate-90 w-4 " />}
+                style="bg-muted hover:bg-primary text-white p-2 rounded max-w-10 flex items-center justify-center"
+                onClick={() => {
+                    setCurrentPage((prev) => Math.min(endPage, prev + 1));
+                }}
+            />
+        </div>
+    );
 }
