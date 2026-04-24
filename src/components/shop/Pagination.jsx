@@ -17,7 +17,7 @@ export default function Pagination({
                     i === currentPage
                         ? "bg-primary text-white"
                         : "bg-muted text-white"
-                } max-w-10 p-2 rounded`}
+                } max-w-10 p-2 rounded hover:bg-primary`}
                 onClick={() => {
                     setCurrentPage(i);
                 }}
@@ -28,7 +28,7 @@ export default function Pagination({
         <div className="flex justify-center gap-4">
             <Button
                 label={<Arrow className="rotate-90 w-4 " />}
-                style="bg-muted hover:bg-primary text-white p-2 rounded max-w-10 flex items-center justify-center"
+                style={`bg-muted  text-white p-2 rounded max-w-10 flex items-center justify-center ${currentPage === startPage ? "  opacity-50" : "hover:bg-primary"}`}
                 onClick={() => {
                     setCurrentPage((prev) => Math.max(prev - 1, startPage));
                 }}
@@ -36,7 +36,7 @@ export default function Pagination({
             {buttons}
             <Button
                 label={<Arrow className="-rotate-90 w-4 " />}
-                style="bg-muted hover:bg-primary text-white p-2 rounded max-w-10 flex items-center justify-center"
+                style={`bg-muted  text-white p-2 rounded max-w-10 flex items-center justify-center ${currentPage === endPage ? " cursor-not-allowed opacity-50" : "hover:bg-primary"}`}
                 onClick={() => {
                     setCurrentPage((prev) => Math.min(endPage, prev + 1));
                 }}
