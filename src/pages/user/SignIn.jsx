@@ -59,7 +59,7 @@ export default function SignIn() {
                 />
                 <Button
                     label="SIGN IN"
-                    style="bg-primary text-white py-3 rounded w-full uppercase tracking-wider font-medium text-sm"
+                    style="bg-primary hover:bg-accent text-white py-3 w-full uppercase tracking-wider font-medium text-sm"
                 />
             </form>
             <AuthDivider
