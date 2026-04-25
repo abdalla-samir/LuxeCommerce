@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "/src/components/ui/Logo";
 import Button from "/src/components/common/Button";
@@ -8,8 +8,10 @@ import Google from "/src/assets/icons/google.svg?react";
 import FormInput from "../../components/authentication/FormInput";
 import AuthDivider from "../../components/authentication/AuthDivider";
 import Heading from "../../components/ui/Heading";
+import { ButtonStyleContext } from "../../context/ButtonStyleContext";
 
 export default function SignIn() {
+    const { mainButtonStyle } = useContext(ButtonStyleContext);
     const inputStyle = "p-2 outline-none text-sm flex-1 placeholder:text-muted";
     const [formData, setFormData] = useState({
         email: "",
@@ -59,7 +61,7 @@ export default function SignIn() {
                 />
                 <Button
                     label="SIGN IN"
-                    style="bg-primary hover:bg-accent text-white py-3 w-full uppercase tracking-wider font-medium text-sm"
+                    style={`${mainButtonStyle}  py-3 w-full uppercase tracking-wider font-medium text-sm`}
                 />
             </form>
             <AuthDivider

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import Profile from "/src/assets/icons/profile.svg?react";
 import Email from "/src/assets/icons/email.svg?react";
 import Password from "/src/assets/icons/password.svg?react";
@@ -8,8 +8,10 @@ import Button from "/src/components/common/Button";
 import FormInput from "../../components/authentication/FormInput";
 import AuthDivider from "../../components/authentication/AuthDivider";
 import Heading from "../../components/ui/Heading";
+import { ButtonStyleContext } from "../../context/ButtonStyleContext";
 
 export default function SignUp() {
+    const { mainButtonStyle } = useContext(ButtonStyleContext);
     const inputStyle = "p-2 outline-none text-sm flex-1";
     const [formData, setFormData] = useState({
         fullName: "",
@@ -89,8 +91,8 @@ export default function SignUp() {
                     className={`${inputStyle} placeholder:text-muted`}
                 />
                 <Button
-                    label="Create Account"
-                    style="bg-primary text-white py-3 rounded w-full uppercase tracking-wider font-medium text-sm uppercase"
+                    label="CREATE ACCOUNT"
+                    style={`${mainButtonStyle}  py-3 w-full uppercase tracking-wider font-medium text-sm`}
                 />
             </form>
             <AuthDivider
