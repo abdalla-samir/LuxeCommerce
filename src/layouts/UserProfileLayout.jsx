@@ -8,7 +8,9 @@ export default function UserProfileLayout() {
             <NavBar />
             <div className="relative flex gap-2 min-h-[calc(100vh-72px)] bg-bg-section ">
                 <UserProfileSideBar />
-                <Outlet />
+                <div className="p-4 flex-1 flex flex-col gap-6">
+                    <Outlet />
+                </div>
             </div>
         </>
     );
