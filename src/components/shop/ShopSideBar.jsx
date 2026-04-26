@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import { shopCategories } from "/src/data/shopCategories";
 import { ShopContext } from "../../context/ShopContext";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -40,26 +40,10 @@ export default function ShopSideBar() {
                 </label>
             );
         });
-    const [showSideBar, setShowSideBar] = useState(false);
-    const [showToggleBar, setShowToggleBar] = useState(false);
-    useEffect(() => {
-        const media = window.matchMedia("(max-width: 1024px)");
-        const handleResize = (event) => {
-            const matches = event.matches;
-            setShowToggleBar(matches);
-            setShowSideBar(!matches);
-        };
-        handleResize({ matches: media.matches });
-        media.addEventListener("change", handleResize);
-        return () => media.removeEventListener("change", handleResize);
-    }, []);
+
     return (
         <>
-            <SideBar
-                showSideBar={showSideBar}
-                setShowSideBar={setShowSideBar}
-                showToggleBar={showToggleBar}
-            >
+            <SideBar>
                 <div className="flex items-center justify-between gap-4">
                     <div>
                         <h2 className="text-primary font-medium text-lg">
@@ -69,12 +53,6 @@ export default function ShopSideBar() {
                             Refine Selection
                         </p>
                     </div>
-                    {showToggleBar && (
-                        <Cross
-                            className="w-4 h-4 cursor-pointer text-primary hover:text-secondary transition"
-                            onClick={() => setShowSideBar(!showSideBar)}
-                        />
-                    )}
                 </div>
                 <label className="flex flex-col gap-2 text-text-secondary text-xs">
                     <span className="uppercase">Price Range</span>

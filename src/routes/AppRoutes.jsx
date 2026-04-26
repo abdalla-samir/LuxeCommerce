@@ -7,6 +7,8 @@ import SignIn from "../pages/user/SignIn";
 import SignUp from "../pages/user/SignUp";
 import ForgotPassword from "../pages/user/ForgotPassword";
 import ResetPassword from "../pages/user/ResetPassword";
+import UserProfileLayout from "../layouts/UserProfileLayout";
+import Settings from "/src/components/user_profile/Settings";
 
 export default function AppRoutes() {
     return (
@@ -27,6 +29,9 @@ export default function AppRoutes() {
                         path="auth/reset-password"
                         element={<ResetPassword />}
                     />
+                </Route>
+                <Route element={<UserProfileLayout />}>
+                    <Route path="/profile/settings" element={<Settings />} />
                 </Route>
             </Routes>
         </BrowserRouter>
