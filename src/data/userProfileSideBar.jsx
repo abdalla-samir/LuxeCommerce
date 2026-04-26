@@ -2,26 +2,26 @@ export const userProfileSideBar = [
     {
         id: 1,
         name: "Dashboard",
-        href: "/user/dashboard",
+        href: "/profile/dashboard",
     },
     {
         id: 2,
         name: "My Orders",
-        href: "/user/my-orders",
+        href: "/profile/my-orders",
     },
     {
         id: 3,
         name: "WishLists",
-        href: "/user/wishlists",
+        href: "/profile/wishlists",
     },
     {
         id: 4,
         name: "Settings",
-        href: "/user/settings",
+        href: "/profile/settings",
     },
     {
         id: 5,
         name: "Billing",
-        href: "/user/billing",
+        href: "/profile/billing",
     },
 ];

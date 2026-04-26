@@ -23,6 +23,7 @@ export default function UserProfileSideBar() {
                         onClick={() => setCurrentSideBarLink(obj.name)}
                     >
                         <Link
+                            to={obj.href}
                             className={`${linkStyle} ${currentSideBarLink === obj.name ? "bg-accent text-white" : ""}`}
                         >
                             {obj.name}
