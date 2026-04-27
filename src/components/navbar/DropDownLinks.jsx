@@ -3,7 +3,9 @@ import { CategoryToggleContext } from "../../context/CategoryToggleContext";
 import { useContext } from "react";
 
 export default function DropDownLinks() {
-    const { showCategoryLinks } = useContext(CategoryToggleContext);
+    const { showCategoryLinks, handleCategoriesToggle } = useContext(
+        CategoryToggleContext,
+    );
 
     return (
         <>
