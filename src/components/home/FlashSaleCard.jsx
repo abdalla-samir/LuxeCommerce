@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import WishListIcon from "/src/assets/icons/wishlist.svg?react";
 import CardMessage from "/src/components/ui/CardMessage";
 import CardOverlay from "/src/components/ui/CardOverlay";
-import { ButtonStyleContext } from "../../context/ButtonStyleContext";
+import { StyleContext } from "../../context/StyleContext";
 
 export default function FlashSaleCard({
     label,
@@ -12,7 +12,7 @@ export default function FlashSaleCard({
     image,
 }) {
     const [addToCardMessage, setAddToCardMessage] = useState(false);
-    const { mainButtonStyle } = useContext(ButtonStyleContext);
+    const { mainButtonStyle } = useContext(StyleContext);
     return (
         <div className="flex justify-center items-center">
             <div className="shadow-lg">

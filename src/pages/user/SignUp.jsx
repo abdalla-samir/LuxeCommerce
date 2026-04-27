@@ -8,10 +8,10 @@ import Button from "/src/components/common/Button";
 import FormInput from "../../components/authentication/FormInput";
 import AuthDivider from "../../components/authentication/AuthDivider";
 import Heading from "../../components/ui/Heading";
-import { ButtonStyleContext } from "../../context/ButtonStyleContext";
+import { StyleContext } from "../../context/StyleContext";
 
 export default function SignUp() {
-    const { mainButtonStyle } = useContext(ButtonStyleContext);
+    const { mainButtonStyle } = useContext(StyleContext);
     const inputStyle = "p-2 outline-none text-sm flex-1";
     const [formData, setFormData] = useState({
         fullName: "",

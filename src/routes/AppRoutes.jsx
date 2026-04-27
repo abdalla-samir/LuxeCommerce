@@ -9,31 +9,43 @@ import ForgotPassword from "../pages/user/ForgotPassword";
 import ResetPassword from "../pages/user/ResetPassword";
 import UserProfileLayout from "../layouts/UserProfileLayout";
 import Settings from "/src/components/user_profile/Settings";
+import { StyleContext } from "../context/StyleContext";
 
 export default function AppRoutes() {
+    const mainButtonStyle =
+        "text-white bg-primary hover:bg-accent h-full text-xs p-3 font-bold";
+    const secondaryButtonStyle =
+        "border hover:bg-accent-hover hover:text-white text-accent py-3 text-xs font-bold";
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route element={<UserLayout />}>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/shop" element={<Shop />} />
-                </Route>
-                <Route element={<AuthenticationLayout />}>
-                    <Route path="auth/sign-in" element={<SignIn />} />
-                    <Route path="auth/sign-up" element={<SignUp />} />
-                    <Route
-                        path="auth/forgot-password"
-                        element={<ForgotPassword />}
-                    />
-                    <Route
-                        path="auth/reset-password"
-                        element={<ResetPassword />}
-                    />
-                </Route>
-                <Route element={<UserProfileLayout />}>
-                    <Route path="/profile/settings" element={<Settings />} />
-                </Route>
-            </Routes>
-        </BrowserRouter>
+        <StyleContext.Provider
+            value={{ mainButtonStyle, secondaryButtonStyle }}
+        >
+            <BrowserRouter>
+                <Routes>
+                    <Route element={<UserLayout />}>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/shop" element={<Shop />} />
+                    </Route>
+                    <Route element={<AuthenticationLayout />}>
+                        <Route path="auth/sign-in" element={<SignIn />} />
+                        <Route path="auth/sign-up" element={<SignUp />} />
+                        <Route
+                            path="auth/forgot-password"
+                            element={<ForgotPassword />}
+                        />
+                        <Route
+                            path="auth/reset-password"
+                            element={<ResetPassword />}
+                        />
+                    </Route>
+                    <Route element={<UserProfileLayout />}>
+                        <Route
+                            path="/profile/settings"
+                            element={<Settings />}
+                        />
+                    </Route>
+                </Routes>
+            </BrowserRouter>
+        </StyleContext.Provider>
     );
 }

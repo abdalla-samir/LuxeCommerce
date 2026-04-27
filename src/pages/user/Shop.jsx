@@ -1,8 +1,8 @@
 import ShopContent from "../../components/shop/ShopContent";
 import ShopSideBar from "../../components/shop/ShopSideBar";
 import ShopHeader from "/src/components/shop/ShopHeader";
-import { useState } from "react";
-import { ButtonStyleContext } from "/src/context/ButtonStyleContext";
+import { useContext, useState } from "react";
+import { StyleContext } from "/src/context/StyleContext";
 import { ShopContext } from "/src/context/ShopContext";
 
 export default function Shop() {
@@ -10,8 +10,8 @@ export default function Shop() {
     const [subCategories, setSubCategories] = useState([]);
     const [inputRange, setInputRange] = useState([0]);
     const [currentPage, setCurrentPage] = useState(1);
-    const mainButtonStyle =
-        "text-white bg-primary hover:bg-accent h-full text-xs font-bold";
+    const { mainButtonStyle } = useContext(StyleContext);
+
     return (
         <>
             <ShopContext.Provider

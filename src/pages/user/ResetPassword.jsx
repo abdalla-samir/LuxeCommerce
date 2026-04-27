@@ -3,12 +3,12 @@ import FormInput from "../../components/authentication/FormInput";
 import { useState, useContext } from "react";
 import Password from "/src/assets/icons/password.svg?react";
 import Button from "../../components/common/Button";
-import { ButtonStyleContext } from "../../context/ButtonStyleContext";
+import { StyleContext } from "../../context/StyleContext";
 import AuthDivider from "../../components/authentication/AuthDivider";
 import { Link } from "react-router-dom";
 
 export default function ResetPassword() {
-    const { mainButtonStyle } = useContext(ButtonStyleContext);
+    const { mainButtonStyle } = useContext(StyleContext);
     const inputStyle = "p-2 outline-none text-sm flex-1 placeholder:text-muted";
     const [formData, setFormData] = useState({
         password: "",

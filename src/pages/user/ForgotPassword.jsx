@@ -2,14 +2,14 @@ import Heading from "../../components/ui/Heading";
 import FormInput from "../../components/authentication/FormInput";
 import Email from "/src/assets/icons/email.svg?react";
 import Button from "../../components/common/Button";
-import { ButtonStyleContext } from "../../context/ButtonStyleContext";
+import { StyleContext } from "../../context/StyleContext";
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import BackIcon from "/src/assets/icons/back.svg?react";
 
 export default function ForgotPassword() {
     const [inputValue, setInputValue] = useState("");
-    const { mainButtonStyle } = useContext(ButtonStyleContext);
+    const { mainButtonStyle } = useContext(StyleContext);
     return (
         <>
             <Heading

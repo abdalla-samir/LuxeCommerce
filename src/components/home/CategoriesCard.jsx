@@ -2,11 +2,11 @@ import { useState } from "react";
 import CardMessage from "/src/components/ui/CardMessage";
 import CardOverlay from "../ui/CardOverlay";
 import { useContext } from "react";
-import { ButtonStyleContext } from "../../context/ButtonStyleContext";
+import { StyleContext } from "../../context/StyleContext";
 
 export default function CategoriesCard({ label, tag, icon: Icon, imagePath }) {
     const [shopNowMessage, setShopNowMessage] = useState(false);
-    const { mainButtonStyle } = useContext(ButtonStyleContext);
+    const { mainButtonStyle } = useContext(StyleContext);
     return (
         <div className="flex justify-center">
             <div

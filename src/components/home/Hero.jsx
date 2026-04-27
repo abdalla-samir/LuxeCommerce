@@ -1,14 +1,11 @@
 import Button from "/src/components/common/Button";
 import HeroImage from "/src/assets/images/hero/Hero.png";
 import FlashTimer from "/src/components/ui/FlashTimer";
+import { StyleContext } from "../../context/StyleContext";
+import { useContext } from "react";
 
 export default function Hero() {
-    const buttonsStyle = {
-        buttonOne:
-            "text-white bg-primary hover:bg-accent-hover py-3 text-xs font-bold",
-        buttonTwo:
-            "border hover:bg-accent-hover hover:text-white text-accent py-3 text-xs font-bold",
-    };
+    const { mainButtonStyle, secondaryButtonStyle } = useContext(StyleContext);
 
     return (
         <div className="min-h-[calc(100vh-72px)] flex max-md:flex-col gap-4 justify-between items-center section-padding">
@@ -31,14 +28,8 @@ export default function Hero() {
                     <span className="text-muted line-through ">$420.00</span>
                 </div>
                 <div className="flex gap-2 max-md:flex-col">
-                    <Button
-                        label="ADD TO CART"
-                        style={buttonsStyle.buttonOne}
-                    />
-                    <Button
-                        label="VIEW DETAILS"
-                        style={buttonsStyle.buttonTwo}
-                    />
+                    <Button label="ADD TO CART" style={mainButtonStyle} />
+                    <Button label="VIEW DETAILS" style={secondaryButtonStyle} />
                 </div>
                 <div className="max-md:text-center">
                     <span className="text-muted text-sm mb-2 block">

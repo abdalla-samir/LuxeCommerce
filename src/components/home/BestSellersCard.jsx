@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import Star from "/src/assets/icons/star.svg?react";
 import CardMessage from "/src/components/ui/CardMessage";
-import { ButtonStyleContext } from "../../context/ButtonStyleContext";
+import { StyleContext } from "../../context/StyleContext";
 
 export default function BestSellersCard({
     category,
@@ -11,7 +11,7 @@ export default function BestSellersCard({
     image,
 }) {
     const [showMessage, setShowMessage] = useState(false);
-    const { mainButtonStyle } = useContext(ButtonStyleContext);
+    const { mainButtonStyle } = useContext(StyleContext);
     return (
         <div className="flex justify-center">
             <div className="shadow">
