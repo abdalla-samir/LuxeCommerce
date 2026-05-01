@@ -56,8 +56,16 @@
     .sidebar-category-li {
         @apply p-2 hover:bg-bg-muted  hover:text-secondary cursor-pointer transition;
     }
-    .heading {
-        @apply text-4xl md:text-5xl lg:text-6xl font-black;
+    .heading-one {
+        @apply text-2xl md:text-3xl lg:text-4xl font-black tracking-wide;
+    }
+
+    .heading-two {
+        @apply text-xl md:text-2xl lg:text-3xl font-bold tracking-wide;
+    }
+
+    .heading-three {
+        @apply text-lg md:text-xl lg:text-2xl font-bold tracking-wide;
     }
     .grid-auto {
         @apply grid gap-6 grid-cols-[repeat(auto-fit,minmax(250px,1fr))];

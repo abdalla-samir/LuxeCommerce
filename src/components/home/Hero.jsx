@@ -3,6 +3,7 @@ import HeroImage from "/src/assets/images/hero/Hero.png";
 import FlashTimer from "/src/components/ui/FlashTimer";
 import { StyleContext } from "../../context/StyleContext";
 import { useContext } from "react";
+import Heading from "../ui/Heading";
 
 export default function Hero() {
     const { mainButtonStyle, secondaryButtonStyle } = useContext(StyleContext);
@@ -13,9 +14,8 @@ export default function Hero() {
                 <span className="bg-accent p-2 rounded text-xs text-white font-black uppercase ">
                     Limited Offer
                 </span>
-                <p className="heading font-black text-primary">
-                    Zenith Smart Watch S
-                </p>
+                <Heading label="Zenith Smart Watch S" />
+
                 <p className="text-primary font-light">
                     Engineered for the discerning. A fusion of aerospace-grade
                     titanium and precision sensor arrays. Luxury is no longer

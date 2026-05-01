@@ -1,4 +1,10 @@
-export default function Heading({ label, tag, description }) {
+export default function Heading({
+    label,
+    tag,
+    description,
+    labelColor,
+    headingLevel,
+}) {
     return (
         <>
             <div className="max-sm:text-center">
@@ -7,7 +13,9 @@ export default function Heading({ label, tag, description }) {
                         {tag}
                     </p>
                 )}
-                <h2 className="font-black text-3xl tracking-tighter text-text-primary uppercase">
+                <h2
+                    className={`font-black tracking-tighter uppercase ${headingLevel} ${labelColor ? labelColor : "text-primary"}`}
+                >
                     {label}
                 </h2>
                 {description && (

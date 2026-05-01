@@ -1,3 +1,4 @@
+import Heading from "../ui/Heading";
 import { brands } from "/src/data/brands";
 
 export default function Brands() {
