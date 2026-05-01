@@ -6,7 +6,11 @@ export default function PromoBanner() {
             className="section-padding bg-primary bg-cover text-white flex flex-col items-center gap-2 text-center"
             style={{ backgroundImage: `url(${PromoBannerImage})` }}
         >
-            <Heading label="Season End Sale: 60% OFF" labelColor="text-white" />
+            <Heading
+                label="Season End Sale: 60% OFF"
+                labelColor="text-white"
+                headingLevel="heading-one"
+            />
             <p className="text-muted">
                 Refresh your lifestyle with our curated clearance collection.
                 Limited time only.

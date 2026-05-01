@@ -18,7 +18,11 @@ export default function FashionSale() {
     return (
         <div className="bg-linear-to-b from-accent to-accent-light section-padding space-y-6">
             <div className="flex flex-col gap-2 items-center">
-                <Heading label="MIDNIGHT FLASH SALE" labelColor="text-white" />
+                <Heading
+                    label="MIDNIGHT FLASH SALE"
+                    labelColor="text-white"
+                    headingLevel="heading-one"
+                />
                 <FlashTimer
                     endTime="2026-05-01T00:00:00"
                     styles={flashTimerStyles}

@@ -19,6 +19,7 @@ export default function BestSellers() {
                 <Heading
                     label="Best Sellers This Week"
                     tag="What Are You Waiting For!!!"
+                    headingLevel="heading-one"
                 />
                 <a
                     href="#"
