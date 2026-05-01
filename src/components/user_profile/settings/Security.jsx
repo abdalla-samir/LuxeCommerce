@@ -18,7 +18,7 @@ export default function Security({ securityInputs, setSecurityInputs }) {
                 }
                 placeholder="••••••••••••"
             />
-            <div className="flex gap-4">
+            <div className="flex max-md:flex-col gap-4">
                 <Input
                     label="New Password"
                     type="password"
@@ -44,7 +44,7 @@ export default function Security({ securityInputs, setSecurityInputs }) {
                     placeholder="Repeat new password"
                 />
             </div>
-            <div className="flex items-center gap-4 bg-[#EFF4FF] p-4">
+            <div className="flex max-sm:flex-col max-sm:text-center items-center gap-4 bg-[#EFF4FF] p-4">
                 <span className="p-4 flex items-center justify-center bg-white rounded">
                     <VerficationIcon />
                 </span>
