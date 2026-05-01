@@ -20,6 +20,7 @@ export default function Pagination({
                 } max-w-10 p-2 rounded hover:bg-primary`}
                 onClick={() => {
                     setCurrentPage(i);
+                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                 }}
             />,
         );
