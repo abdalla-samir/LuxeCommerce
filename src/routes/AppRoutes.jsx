@@ -13,9 +13,9 @@ import { StyleContext } from "../context/StyleContext";
 
 export default function AppRoutes() {
     const mainButtonStyle =
-        "text-white bg-primary hover:bg-accent h-full text-xs p-3 font-bold";
+        "cursor-pointer text-white bg-primary hover:bg-accent h-full text-xs p-3 font-bold";
     const secondaryButtonStyle =
-        "border hover:bg-accent-hover hover:text-white text-accent py-3 text-xs font-bold";
+        "cursor-pointer border hover:bg-accent-hover hover:text-white text-accent py-3 text-xs font-bold";
     return (
         <StyleContext.Provider
             value={{ mainButtonStyle, secondaryButtonStyle }}
