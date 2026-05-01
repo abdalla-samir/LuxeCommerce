@@ -1,8 +1,9 @@
-export default function Button({ link, label, style, onClick }) {
+export default function Button({ link, label, style, onClick, disabled }) {
     return (
         <button
-            className={`w-40 cursor-pointer transition duration-200 ${style}`}
+            className={`w-40 transition duration-200 ${style}`}
             onClick={onClick}
+            disabled={disabled}
         >
             {label}
         </button>
