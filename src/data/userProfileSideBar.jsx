@@ -19,9 +19,9 @@ export const userProfileSideBar = [
     },
     {
         id: 3,
-        name: "WishLists",
+        name: "WishList",
         icon: <WishListIcon width={18} />,
-        href: "/profile/wishlists",
+        href: "/profile/wishlist",
     },
     {
         id: 4,

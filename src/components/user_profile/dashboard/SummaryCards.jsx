@@ -5,6 +5,7 @@ export default function SummeryCards() {
         <div className="grid xl:grid-cols-4 lg:grid-cols-2  gap-6">
             {summaryData.map((obj) => (
                 <SummeryCard
+                    key={obj.id}
                     title={obj.title}
                     value={obj.value}
                     icon={obj.icon}
