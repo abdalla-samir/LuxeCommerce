@@ -6,7 +6,7 @@ export default function ActionButtons() {
     const navigate = useNavigate();
     const { secondaryButtonStyle } = useContext(StyleContext);
     return (
-        <div className="flex gap-6">
+        <div className="flex justify-center flex-wrap gap-6">
             <Button
                 label="CONTINUE SHOPPING"
                 style={secondaryButtonStyle}
