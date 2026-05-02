@@ -1,6 +1,6 @@
-import Heading from "../ui/Heading";
-import UserProfileHeading from "./UserProfileHeading";
-import UserInformation from "./settings/UserInformation";
+import Heading from "../../ui/Heading";
+import UserProfileHeading from "../UserProfileHeading";
+import UserInformation from "./UserInformation";
 
 export default function Settings() {
     return (

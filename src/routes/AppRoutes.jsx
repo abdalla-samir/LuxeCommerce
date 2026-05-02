@@ -8,9 +8,9 @@ import SignUp from "../pages/user/SignUp";
 import ForgotPassword from "../pages/user/ForgotPassword";
 import ResetPassword from "../pages/user/ResetPassword";
 import UserProfileLayout from "../layouts/UserProfileLayout";
-import Settings from "/src/components/user_profile/Settings";
+import Settings from "/src/components/user_profile/settings/Settings";
 import { StyleContext } from "../context/StyleContext";
-import Dashboard from "../components/user_profile/Dashboard";
+import Dashboard from "../components/user_profile/dashboard/Dashboard";
 
 export default function AppRoutes() {
     const mainButtonStyle =
