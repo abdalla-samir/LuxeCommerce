@@ -10,6 +10,7 @@ import ResetPassword from "../pages/user/ResetPassword";
 import UserProfileLayout from "../layouts/UserProfileLayout";
 import Settings from "/src/components/user_profile/Settings";
 import { StyleContext } from "../context/StyleContext";
+import Dashboard from "../components/user_profile/Dashboard";
 
 export default function AppRoutes() {
     const mainButtonStyle =
@@ -42,6 +43,10 @@ export default function AppRoutes() {
                         <Route
                             path="/profile/settings"
                             element={<Settings />}
+                        />
+                        <Route
+                            path="/profile/dashboard"
+                            element={<Dashboard />}
                         />
                     </Route>
                 </Routes>

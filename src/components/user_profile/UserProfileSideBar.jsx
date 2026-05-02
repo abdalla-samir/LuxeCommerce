@@ -5,7 +5,7 @@ import { userProfileSideBar } from "../../data/userProfileSideBar";
 
 export default function UserProfileSideBar() {
     const linkStyle =
-        "p-2 inline-block w-full hover:bg-accent hover:text-white transition duration-150 cursor-pointer ";
+        "p-2 text-primary w-full hover:bg-accent hover:text-white transition duration-150 cursor-pointer flex items-center gap-2";
     const [currentSideBarLink, setCurrentSideBarLink] = useState(() => {
         return window.localStorage.getItem("SideBarLink")
             ? window.localStorage.getItem("SideBarLink")
@@ -26,6 +26,7 @@ export default function UserProfileSideBar() {
                             to={obj.href}
                             className={`${linkStyle} ${currentSideBarLink === obj.name ? "bg-accent text-white" : ""}`}
                         >
+                            {obj.icon}
                             {obj.name}
                         </Link>
                     </li>
