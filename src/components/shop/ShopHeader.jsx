@@ -26,7 +26,7 @@ export default function ShopHeader() {
         </li>
     ));
     return (
-        <ul className="flex gap-10 overflow-x-scroll p-4 shadow h-15">
+        <ul className="flex gap-10 overflow-x-auto p-4 shadow h-15">
             {shopCategoriesList}
         </ul>
     );
