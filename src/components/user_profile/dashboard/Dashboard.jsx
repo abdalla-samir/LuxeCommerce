@@ -1,5 +1,6 @@
 import UserProfileHeading from "../UserProfileHeading";
 import ActionButtons from "./ActionButtons";
+import RecentOrders from "./RecentOrders";
 import SummeryCards from "./SummaryCards";
 export default function Dashboard() {
     return (
@@ -7,6 +8,7 @@ export default function Dashboard() {
             <UserProfileHeading label="Dashboard" />
             <SummeryCards />
             <ActionButtons />
+            <RecentOrders />
         </div>
     );
 }
