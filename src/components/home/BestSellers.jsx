@@ -1,6 +1,7 @@
 import { bestSellers } from "/src/data/bestSellers";
 import BestSellersCard from "/src/components/home/BestSellersCard";
 import Heading from "/src/components/ui/Heading";
+import HeaderLink from "/src/components/ui/HeaderLink";
 
 export default function BestSellers() {
     const bestSellersCards = bestSellers.map((obj) => (
@@ -21,12 +22,7 @@ export default function BestSellers() {
                     tag="What Are You Waiting For!!!"
                     headingLevel="heading-one"
                 />
-                <a
-                    href="#"
-                    className="border-b-2 w-fit border-border-dark text-sm font-bold"
-                >
-                    View All
-                </a>
+                <HeaderLink label="View All" to="/shop" />
             </div>
             <div className="grid-auto">{bestSellersCards}</div>
         </div>

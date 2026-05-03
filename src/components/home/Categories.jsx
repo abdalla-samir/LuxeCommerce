@@ -1,6 +1,7 @@
 import Heading from "/src/components/ui/Heading";
 import CategoriesCard from "/src/components/home/CategoriesCard";
 import { categories } from "/src/data/categories";
+import HeaderLink from "/src/components/ui/HeaderLink";
 
 export default function Categories() {
     const categoriesCards = categories.map((obj) => (
@@ -21,12 +22,7 @@ export default function Categories() {
                         tag="Discover More"
                         headingLevel="heading-one"
                     />
-                    <a
-                        href="#"
-                        className="border-b-2 w-fit border-border-dark text-sm font-bold"
-                    >
-                        View All
-                    </a>
+                    <HeaderLink label="View All" to="/shop" />
                 </div>
                 <div className="grid-auto">{categoriesCards}</div>
             </div>
